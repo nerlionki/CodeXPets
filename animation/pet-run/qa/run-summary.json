@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "package": "D:\\个人项目\\CodeXPets\\dist\\maltese-retriever",
+  "sha256": "cc43e42fb66cc979a2aedc647f7b0762a53eea447a0734b88670df0ea01b2d3f",
+  "installed": false,
+  "visual_notes": [
+    "Approved outlined pink bubble artwork adapted to six native idle keyframes; actual timing shown in installer",
+    "Idle and jumping use visually reviewed stable-slot extraction"
+  ]
+}

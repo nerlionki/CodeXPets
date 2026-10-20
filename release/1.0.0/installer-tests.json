@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "checks": [
+    "Embedded resources and SHA256 checks pass",
+    "First install into a path with Chinese characters and spaces succeeds",
+    "Installed sprite matches embedded resource",
+    "Installed pet manifest matches embedded resource",
+    "Repeat install preserves complete previous pet in backup",
+    "Backup stays outside the selectable pets folder",
+    "Repeat install creates no duplicate pet entries",
+    "Other pets remain unchanged",
+    "Codex settings remain unchanged",
+    "Failed install preserves a conflicting existing file",
+    "Successful installs leave no staging residue",
+    "Failed install leaves no staging residue"
+  ],
+  "testRoot": "D:\\个人项目\\CodeXPets\\build\\installer-test-4d537f94eebf4724bdff9a8ee45aaa52",
+  "testedOS": "Microsoft Windows NT 10.0.19045.0",
+  "testedArchitecture": "x64",
+  "target": "Windows 10 and Windows 11; additional OS versions not machine-tested",
+  "installedInRealCodex": false
+}

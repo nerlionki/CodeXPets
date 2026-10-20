@@ -1,0 +1,15 @@
+CodeX Pets 1.0.0 · 小白和小鸡毛
+
+将 CodeXPets-1.0.0-Windows-Setup.exe 复制到目标电脑，双击查看动画，再点击“安装此形象”。只复制 EXE 即可，不需要其他文件。
+
+目标：Windows 10 / Windows 11。需已安装支持自定义 v2 宠物的 Codex。使用系统 .NET Framework，无需 Node、Python、联网或默认目录下的管理员权限。
+
+安装后：打开 Codex → 设置 → 宠物，刷新后选择“小白和小鸡毛”。如未出现，可重新打开 Codex。
+
+默认配置目录为当前用户的 .codex，尊重 CODEX_HOME 环境变量；安装器可更改配置目录。已有同名宠物会完整保存到该配置目录的 pet-backups 文件夹，其他宠物和 Codex 设置不变。
+
+动画差异：聊天审批演示为 28 帧，Codex 原生待机固定 6 帧。安装器显示实际 6 帧预览，保留尾巴上下摆动、黑边粉色爱心由下向上冒出的设计。
+
+隔离安装/备份/失败保护测试通过（Windows 10 19045 x64）。Win11 尚未实机验证。EXE 未签名。
+
+恢复旧宠物：关闭 Codex，把 pets/maltese-retriever 移到配置目录之外，再将 pet-backups 内所需旧版本文件夹复制回 pets 并改名为 maltese-retriever，重新打开 Codex 后刷新宠物列表。

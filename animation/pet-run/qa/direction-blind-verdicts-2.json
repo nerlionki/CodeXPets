@@ -1,0 +1,89 @@
+{
+  "reviewer": "final_blind_2",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "Muzzle/face placement provides right or left cue; near-centered features are ambiguous"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "up",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "High/raised facial landmarks indicate up; low facial landmarks and broad forehead indicate down; level side profiles are ambiguous"
+    }
+  ]
+}

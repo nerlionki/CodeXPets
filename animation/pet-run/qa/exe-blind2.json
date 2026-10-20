@@ -1,0 +1,19 @@
+{
+  "reviewer": "idle",
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A faces and noses sit toward the right; B Maltese muzzle points left and Retriever face is shifted toward upper left."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A Maltese muzzle points left with Retriever face toward upper left; B both faces turn toward right."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"Both muzzles and facial features shift right in A and left in B."},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A shows left profile noses; B shows right profile noses."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"Both characters face left in A and right in B."},
+    {"pair":"horizontal-6","A":"ambiguous","B":"screen-right","reason":"A is primarily down-facing with near-centered faces; B has both muzzles displaced toward right."},
+    {"pair":"horizontal-7","A":"screen-right","B":"ambiguous","reason":"A Retriever muzzle turns right with Maltese slightly right; B is down-facing and does not communicate a horizontal direction."},
+    {"pair":"vertical-1","A":"screen-up","B":"screen-down","reason":"A faces are placed high on raised heads; B lowered muzzles sit near the collars and chest."},
+    {"pair":"vertical-2","A":"screen-down","B":"screen-up","reason":"A lowered faces and low Maltese muzzle point down; B raised noses and faces point up."},
+    {"pair":"vertical-3","A":"screen-down","B":"screen-up","reason":"A faces sit lower with muzzles toward chest; B faces sit high and noses tilt upward."},
+    {"pair":"vertical-4","A":"ambiguous","B":"ambiguous","reason":"Both images primarily show a similar rightward gaze without a convincing upward versus downward distinction."},
+    {"pair":"vertical-5","A":"screen-up","B":"screen-down","reason":"A faces and noses sit high on the heads; B faces are lowered toward collars and chest."},
+    {"pair":"vertical-6","A":"screen-up","B":"screen-down","reason":"A raised faces point upward; B faces are lowered at the bottom of the heads."},
+    {"pair":"vertical-7","A":"ambiguous","B":"ambiguous","reason":"Both images show leftward profiles at essentially similar heights without a clear vertical gaze."}
+  ]
+}

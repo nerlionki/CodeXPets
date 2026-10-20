@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "reviewer": "look_a_qa",
+  "continuity": "No reversal, wrong quadrant, clipping, baseline jump or scale pop",
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "up",
+      "observed": "Both chins lifted, noses high; clear up cardinal",
+      "verdict": "pass",
+      "reason": "Both chins lifted, noses high; clear up cardinal"
+    },
+    {
+      "degree": "022.5",
+      "expected": "up-right",
+      "observed": "Noses shift right while muzzle pitch remains up",
+      "verdict": "pass",
+      "reason": "Noses shift right while muzzle pitch remains up"
+    },
+    {
+      "degree": "045",
+      "expected": "up-right",
+      "observed": "Clear rightward displacement with residual up tilt; neighboring distinction subtle",
+      "verdict": "warning",
+      "reason": "Clear rightward displacement with residual up tilt; neighboring distinction subtle"
+    },
+    {
+      "degree": "067.5",
+      "expected": "up-right",
+      "observed": "Upper-right orientation approaching right cardinal; adjacent step subtle",
+      "verdict": "warning",
+      "reason": "Upper-right orientation approaching right cardinal; adjacent step subtle"
+    },
+    {
+      "degree": "090",
+      "expected": "right",
+      "observed": "Both noses and muzzles project to screen-right; clear right cardinal",
+      "verdict": "pass",
+      "reason": "Both noses and muzzles project to screen-right; clear right cardinal"
+    },
+    {
+      "degree": "112.5",
+      "expected": "down-right",
+      "observed": "Features descend below right anchor while rightward bias remains",
+      "verdict": "pass",
+      "reason": "Features descend below right anchor while rightward bias remains"
+    },
+    {
+      "degree": "135",
+      "expected": "down-right",
+      "observed": "Both muzzles lower with rightward orientation",
+      "verdict": "pass",
+      "reason": "Both muzzles lower with rightward orientation"
+    },
+    {
+      "degree": "157.5",
+      "expected": "down-right",
+      "observed": "Low noses with remaining rightward bias approaching down",
+      "verdict": "pass",
+      "reason": "Low noses with remaining rightward bias approaching down"
+    }
+  ]
+}

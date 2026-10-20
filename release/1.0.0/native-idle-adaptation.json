@@ -1,0 +1,24 @@
+{
+  "approved_demo": "approval/idle-bubble-v4/idle-approval-v4.gif",
+  "demo_frames": 28,
+  "native_frames": 6,
+  "native_durations_ms": [
+    280,
+    110,
+    110,
+    140,
+    140,
+    320
+  ],
+  "direction": "bottom-to-top",
+  "heart_style": "exact black-outline pink-fill supplied artwork",
+  "counts": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "note": "The installer previews the actual native six-frame timing; demo timing is not advertised as identical."
+}

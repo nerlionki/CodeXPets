@@ -1,0 +1,8 @@
+build/
+animation/pet-run/decoded/
+animation/pet-run/frames/
+animation/pet-run/references/
+animation/pet-run/qa/rows/
+drafts/
+__pycache__/
+release/*/github-published.json

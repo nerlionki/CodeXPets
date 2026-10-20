@@ -1,0 +1,441 @@
+{
+  "ok": true,
+  "direction": "bottom-to-top, user correction overrides previous direction",
+  "style": "exact supplied heart: black outline and pink fill",
+  "frames": 28,
+  "frame_duration_ms": 80,
+  "method": "existing supplied sprite artwork; deterministic effect-layer animation and GIF encoding",
+  "motion": [
+    {
+      "frame": 0,
+      "body_frame": 0,
+      "hearts": []
+    },
+    {
+      "frame": 1,
+      "body_frame": 0,
+      "hearts": []
+    },
+    {
+      "frame": 2,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 0,
+          "center_y": 80,
+          "opacity": 0.6
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 1,
+          "center_y": 75,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "body_frame": 1,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 2,
+          "center_y": 70,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "body_frame": 2,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 3,
+          "center_y": 65,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "body_frame": 2,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 4,
+          "center_y": 60,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "body_frame": 3,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 5,
+          "center_y": 55,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 0,
+          "center_y": 80,
+          "opacity": 0.6
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "body_frame": 4,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 6,
+          "center_y": 50,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 1,
+          "center_y": 75,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "body_frame": 4,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 7,
+          "center_y": 45,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 2,
+          "center_y": 70,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 8,
+          "center_y": 40,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 3,
+          "center_y": 65,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 9,
+          "center_y": 35,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 4,
+          "center_y": 60,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 10,
+          "center_y": 30,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 5,
+          "center_y": 55,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 0,
+          "center_y": 80,
+          "opacity": 0.6
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 11,
+          "center_y": 25,
+          "opacity": 1
+        },
+        {
+          "emission": 7,
+          "age": 6,
+          "center_y": 50,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 1,
+          "center_y": 75,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 12,
+          "center_y": 20,
+          "opacity": 0.6666666666666666
+        },
+        {
+          "emission": 7,
+          "age": 7,
+          "center_y": 45,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 2,
+          "center_y": 70,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 2,
+          "age": 13,
+          "center_y": 15,
+          "opacity": 0.3333333333333333
+        },
+        {
+          "emission": 7,
+          "age": 8,
+          "center_y": 40,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 3,
+          "center_y": 65,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 7,
+          "age": 9,
+          "center_y": 35,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 4,
+          "center_y": 60,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "body_frame": 0,
+      "hearts": [
+        {
+          "emission": 7,
+          "age": 10,
+          "center_y": 30,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 5,
+          "center_y": 55,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "body_frame": 1,
+      "hearts": [
+        {
+          "emission": 7,
+          "age": 11,
+          "center_y": 25,
+          "opacity": 1
+        },
+        {
+          "emission": 12,
+          "age": 6,
+          "center_y": 50,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "body_frame": 2,
+      "hearts": [
+        {
+          "emission": 7,
+          "age": 12,
+          "center_y": 20,
+          "opacity": 0.6666666666666666
+        },
+        {
+          "emission": 12,
+          "age": 7,
+          "center_y": 45,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "body_frame": 3,
+      "hearts": [
+        {
+          "emission": 7,
+          "age": 13,
+          "center_y": 15,
+          "opacity": 0.3333333333333333
+        },
+        {
+          "emission": 12,
+          "age": 8,
+          "center_y": 40,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "body_frame": 3,
+      "hearts": [
+        {
+          "emission": 12,
+          "age": 9,
+          "center_y": 35,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "body_frame": 4,
+      "hearts": [
+        {
+          "emission": 12,
+          "age": 10,
+          "center_y": 30,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "body_frame": 4,
+      "hearts": [
+        {
+          "emission": 12,
+          "age": 11,
+          "center_y": 25,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 12,
+          "age": 12,
+          "center_y": 20,
+          "opacity": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "body_frame": 5,
+      "hearts": [
+        {
+          "emission": 12,
+          "age": 13,
+          "center_y": 15,
+          "opacity": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "body_frame": 5,
+      "hearts": []
+    },
+    {
+      "frame": 27,
+      "body_frame": 5,
+      "hearts": []
+    }
+  ],
+  "heart_cleanup": {
+    "algorithm": "edge-local-chroma-spill-suppression",
+    "strength": 1,
+    "edge_radius": 5,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "changed_pixels": 123,
+    "decontaminated_pixels": 94,
+    "spill_suppressed_pixels": 123,
+    "rejected_pixels": 0,
+    "changed_by_cell": {
+      "r0c0": 123
+    },
+    "alpha_preserved": true
+  }
+}

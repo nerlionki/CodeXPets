@@ -1,0 +1,50 @@
+[
+  {
+    "state": "running-right",
+    "scale": 0.9170505585821221,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "running-left",
+    "scale": 0.9355911704952039,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "waving",
+    "scale": 0.9875264967310995,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "jumping",
+    "scale": 0.9880644301027635,
+    "ground": 195,
+    "preserve_jump_offset": true
+  },
+  {
+    "state": "failed",
+    "scale": 0.982040029611271,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "waiting",
+    "scale": 0.9918980991519464,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "running",
+    "scale": 0.9807100590179392,
+    "ground": 195,
+    "preserve_jump_offset": false
+  },
+  {
+    "state": "review",
+    "scale": 0.9840045381333546,
+    "ground": 195,
+    "preserve_jump_offset": false
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "directions": {
+    "000": "Both chins lifted, noses high, heads pitched up",
+    "090": "Both muzzles face screen-right and noses project right of head centers",
+    "180": "Both heads bow, noses and mouths low",
+    "270": "Both muzzles turn screen-left, noses at left head contours"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer": "blind_three",
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"ambiguous","reason":"A's nose and muzzle project right; B's high muzzle is approximately centered horizontally."},
+    {"pair":"horizontal-2","A":"ambiguous","B":"screen-right","reason":"A's nose sits near the horizontal center; B's facial landmarks cluster at the right edge."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A's muzzle projects right; B's muzzle projects left with its ear behind it on the right."},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A's nose occupies the left edge of the head; B's nose occupies the right edge."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A's nose and mouth project left; B's muzzle projects toward the white companion on the right."},
+    {"pair":"horizontal-6","A":"ambiguous","B":"screen-right","reason":"A's lowered nose is approximately centered; B's muzzle is displaced clearly right."},
+    {"pair":"horizontal-7","A":"screen-right","B":"ambiguous","reason":"A's facial landmarks cluster toward its right cheek; B's lowered nose sits near the horizontal center."},
+    {"pair":"vertical-1","A":"screen-up","B":"screen-down","reason":"A's nose is raised to the crown and both muzzles lift; B's nose sits beneath the forehead at the bottom of the head."},
+    {"pair":"vertical-2","A":"screen-down","B":"screen-up","reason":"A's muzzle sits low beneath its forehead; B's nose points toward the upper-right contour."},
+    {"pair":"vertical-3","A":"screen-down","B":"screen-up","reason":"A's facial landmarks sit low on the face; B's nose and muzzle angle upward."},
+    {"pair":"vertical-4","A":"ambiguous","B":"screen-up","reason":"A's muzzle projects mostly sideways with weak vertical inclination; B's nose rises toward the upper-right contour."},
+    {"pair":"vertical-5","A":"screen-up","B":"screen-down","reason":"A's nose and mouth sit close to the crown; B's nose sits at the bottom of the lowered head."},
+    {"pair":"vertical-6","A":"screen-up","B":"screen-down","reason":"A's muzzle is raised near the top of its head; B's nose is low beneath the forehead."},
+    {"pair":"vertical-7","A":"ambiguous","B":"ambiguous","reason":"Both muzzles primarily project sideways; A's landmarks are somewhat lower, but neither gives a clear vertical gaze."}
+  ]
+}

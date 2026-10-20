@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-reference-v3\\extracted\\idle\\05.png"
+      ],
+      "method": "stable-slots"
+    }
+  ]
+}

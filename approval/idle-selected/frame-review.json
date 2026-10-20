@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "frames_root": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames",
+  "states": [
+    "idle"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16616,
+          "bbox": [
+            5,
+            70,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 140
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17274,
+          "bbox": [
+            5,
+            20,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 145
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17544,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 150
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18218,
+          "bbox": [
+            5,
+            11,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17490,
+          "bbox": [
+            5,
+            34,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 178
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\idle-selected\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16849,
+          "bbox": [
+            5,
+            70,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 145
+        }
+      ]
+    }
+  ]
+}

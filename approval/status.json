@@ -1,0 +1,16 @@
+{
+  "status": "user_approved_demo_packaged",
+  "installed": false,
+  "packaged": true,
+  "approval_text": "可以就按这版来",
+  "installer": "dist/CodeXPets-1.0.0-Windows-Setup.exe",
+  "native_preview": "animation/pet-run/qa/previews/idle.gif",
+  "native_adaptation": "28-frame approved demo adapted to Codex fixed six-frame native idle; actual preview shown before install",
+  "candidate": "idle-bubble-v4",
+  "preview": "approval/idle-bubble-v4/idle-approval-v4.gif",
+  "heart_reference": "assets/maltese-retriever/references/user-heart-style.png",
+  "heart_style": "black outline, pink fill",
+  "heart_motion": "bubbles emerge low, rise upward, fade at top",
+  "body_reference": "idle-reference-v3",
+  "other_candidate": "cheek-v2"
+}

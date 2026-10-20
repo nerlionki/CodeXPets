@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "reviewer": "final_visual_qa",
+  "notes": [
+    "Happy tan-left and white-right identity, coral collar, compact round left-facing tan head preserved.",
+    "Idle tail alternates vertically. Pink outlined hearts emerge lowest then advance upward, matching latest direct user correction relayed by parent.",
+    "Jump has launch, visibly lifted bodies and landing. Running limbs alternate. Work, wait, wave, failure and review gestures remain distinct.",
+    "Head scale and non-jump foot registration stable. Upright gaze bodies differ naturally from folded seated idle; no gross scale pop, baseline jump or clipping.",
+    "All four gaze cardinals clear. Labeled clockwise sequence coherent with no gross reversal."
+  ],
+  "warnings": [
+    "Intermediate angles045,067.5,112.5,202.5,225,247.5,292.5 have subtle component directions in isolation.",
+    "Continuity warnings for tiny bottom outline gaps and local pixel-difference outliers do not show visible registration failure."
+  ],
+  "repair_rows": []
+}

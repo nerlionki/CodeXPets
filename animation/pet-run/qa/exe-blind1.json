@@ -1,0 +1,89 @@
+{
+  "reviewer": "exe_blind1",
+  "pairs": [
+    {
+      "B": "ambiguous",
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "reason": "A has snouts and eyes toward the right; B faces upward with little clear horizontal bias."
+    },
+    {
+      "B": "screen-right",
+      "pair": "horizontal-2",
+      "A": "ambiguous",
+      "reason": "A faces upward without a clear side; B has the muzzle and gaze on the right."
+    },
+    {
+      "B": "screen-left",
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "reason": "A shows rightward profiles; B places the facial features toward the left."
+    },
+    {
+      "B": "screen-right",
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "reason": "A has left-facing muzzle placement; B has right-facing muzzle placement."
+    },
+    {
+      "B": "screen-right",
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "reason": "The visible facial profiles point left in A and right in B."
+    },
+    {
+      "B": "screen-right",
+      "pair": "horizontal-6",
+      "A": "ambiguous",
+      "reason": "A looks downward near the center; B has a rightward profile despite a lowered gaze."
+    },
+    {
+      "B": "ambiguous",
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "reason": "A has rightward facial placement; B looks down with centered features."
+    },
+    {
+      "B": "screen-down",
+      "pair": "vertical-1",
+      "A": "screen-up",
+      "reason": "A raises the muzzles and faces; B lowers both faces toward the ground."
+    },
+    {
+      "B": "screen-up",
+      "pair": "vertical-2",
+      "A": "screen-down",
+      "reason": "A has lowered faces; B lifts the snouts and gaze."
+    },
+    {
+      "B": "screen-up",
+      "pair": "vertical-3",
+      "A": "screen-down",
+      "reason": "A directs the faces downward and right; B tilts the faces upward and right."
+    },
+    {
+      "B": "ambiguous",
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "reason": "Both show mainly right-facing profiles without a clearly reliable upward or downward gaze."
+    },
+    {
+      "B": "screen-down",
+      "pair": "vertical-5",
+      "A": "screen-up",
+      "reason": "A lifts the muzzles; B lowers the facial features toward the ground."
+    },
+    {
+      "B": "screen-down",
+      "pair": "vertical-6",
+      "A": "screen-up",
+      "reason": "A tilts the faces upward; B tilts them downward."
+    },
+    {
+      "B": "ambiguous",
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "reason": "Both show mainly level leftward profiles, with no clear vertical gaze."
+    }
+  ]
+}
