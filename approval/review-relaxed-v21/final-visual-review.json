@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "reviewer": "primary agent six-frame static review plus user GIF approval",
+  "approved_state": "review",
+  "approval_text": "可以",
+  "gif_sha256": "353d065c86ff9d86a0264af1ad79db1fd10ffe466c2ced9817f5482f637af0de",
+  "frame_sha256": [
+    "3d131329336d8b2714ff4038d278ef9f7d5cdb6382d947f753191fa05835276f",
+    "39382b6bcd766b51c1689c495170255cc565155580bb462f75b28e796b43ba11",
+    "e2e2ebec543b4df36bd20ea79290e98e02ddd0d1b70f34919e5ccbbcb894c3f3",
+    "20efd68655ecec6e52c7aac2dc4edf471d2be2801639da59538b35bf485d6c2e",
+    "ceabee8b5f39962513aae6edde239a56e9fbdca6f524b77079303b68bf50b439",
+    "cec3e40e6c7b07a674efcc5752eafda5674fcbd32ca9f631a44289b626fda832"
+  ],
+  "notes": "User approved the displayed GIF; source pixels must be integrated without redrawing or rescaling."
+}

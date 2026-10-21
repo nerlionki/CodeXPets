@@ -1,0 +1,12 @@
+{
+  "candidate": "nuzzle-hearts-v3",
+  "state": "failed",
+  "preview": "failed.gif",
+  "preview_2x": "failed-2x.gif",
+  "preview_sha256": "3554fa4ab6c2ba98b9d66f1425fb066c2f84972144a98a92c2e3efdbee25b815",
+  "status": "approved_packaged",
+  "approval_text": "先这样吧",
+  "installed": false,
+  "packaged": true,
+  "release_changed": false
+}

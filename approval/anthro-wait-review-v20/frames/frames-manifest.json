@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "waiting",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\05.png"
+      ]
+    },
+    {
+      "state": "review",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\05.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "status": "approved_installed_and_cloud_synced",
+  "approval_text": "可以了",
+  "installed": true,
+  "packaged": true,
+  "cloud_updated": true,
+  "sprite_sha256": "dde12acc0d0e0b8b46dd1cf798ecee534a016d8e55f36a41e33b7338f5997ee3",
+  "installer_sha256": "aaf580e499d74d06559f10d6e712c63805b0b249d2164e94808922039883c3f0"
+}

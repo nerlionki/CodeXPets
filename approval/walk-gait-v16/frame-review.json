@@ -1,0 +1,281 @@
+{
+  "ok": true,
+  "frames_root": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames",
+  "states": [
+    "running-right",
+    "running-left"
+  ],
+  "errors": [],
+  "warnings": [
+    "running-right used extraction method stable-slots; component extraction is preferred",
+    "running-left used extraction method stable-slots; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12588,
+          "bbox": [
+            19,
+            83,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13284,
+          "bbox": [
+            22,
+            83,
+            186,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12560,
+          "bbox": [
+            19,
+            83,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13261,
+          "bbox": [
+            15,
+            84,
+            179,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12588,
+          "bbox": [
+            19,
+            83,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13284,
+          "bbox": [
+            22,
+            83,
+            186,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12560,
+          "bbox": [
+            19,
+            83,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 7,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13261,
+          "bbox": [
+            15,
+            84,
+            179,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12588,
+          "bbox": [
+            9,
+            83,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13284,
+          "bbox": [
+            6,
+            83,
+            170,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12560,
+          "bbox": [
+            9,
+            83,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13261,
+          "bbox": [
+            13,
+            84,
+            177,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12588,
+          "bbox": [
+            9,
+            83,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13284,
+          "bbox": [
+            6,
+            83,
+            170,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12560,
+          "bbox": [
+            9,
+            83,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 7,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13261,
+          "bbox": [
+            13,
+            84,
+            177,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

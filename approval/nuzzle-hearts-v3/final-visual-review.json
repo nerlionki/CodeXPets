@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "nuzzle_readable": true,
+  "anthropomorphic_pose": true,
+  "eyes_match_idle": true,
+  "hearts_upward": true,
+  "notes": [
+    "已独立核对全部八帧联系图及01、03、05实际单帧，并对照真实已发布idle小眼睛与拟人坐姿。",
+    "金毛从初始坐姿向右主动靠近白狗，头脸贴近后向上蹭再回落，随后回到依偎坐姿；动作比单纯微点头明确，主动蹭脸可读。",
+    "两只始终坐姿，前臂停留在身前；没有撑地、四足爬行或低头贴地。小黑点眼、鼻子、单W形笑嘴保持，未见额外眉毛/眼圈/第二层嘴。",
+    "粉心从接触点上方出现，两次发出的心均向上移动并消失，首尾无心。末帧回到接近首帧的坐姿，可循环。",
+    "已重审统一安全边距注册后的最终05帧：bbox顶部为y=6，画布顶行完全透明，最高爱心双瓣黑轮廓与抗锯齿外缘完整，无切割；frame-review不再有near-edge警告。"
+  ],
+  "warnings": [
+    "首尾存在少量重生成轮廓/位置差异，循环接缝轻微；没有大的姿态跳变。"
+  ],
+  "repair_rows": [],
+  "required_repair": null,
+  "edge_evidence": {
+    "raw-frames": {
+      "bbox": [
+        10,
+        5,
+        180,
+        203
+      ],
+      "top_row_max_alpha": 0,
+      "top_row_nontransparent": 0
+    },
+    "registered-frames": {
+      "bbox": [
+        14,
+        6,
+        176,
+        195
+      ],
+      "top_row_max_alpha": 0,
+      "top_row_nontransparent": 0
+    },
+    "frames": {
+      "bbox": [
+        14,
+        6,
+        176,
+        195
+      ],
+      "top_row_max_alpha": 0,
+      "top_row_nontransparent": 0
+    }
+  },
+  "evidence": [
+    "review-frame05-top.png",
+    "frames/failed/05.png",
+    "raw-frames/failed/05.png",
+    "registered-frames/failed/05.png",
+    "frame-review.json"
+  ],
+  "scope": "只做独立QA及写结果，没有改图、生成、打包或安装。",
+  "registration_reviewed": [
+    {
+      "state": "failed",
+      "scale": 0.9540816326530612,
+      "ground": 195,
+      "preserve_vertical_motion": true,
+      "safe_margin": 8
+    }
+  ],
+  "reviewed_frame05_sha256": "419b60663f37b427a6930ab1c2536ad5ed0367b30a2962c756919af90a305bc9"
+}

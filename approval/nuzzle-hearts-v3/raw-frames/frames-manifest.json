@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "failed",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\05.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\06.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\raw-frames\\failed\\07.png"
+      ],
+      "method": "stable-slots"
+    }
+  ]
+}

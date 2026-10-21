@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\approval-atlas-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\nuzzle-hearts-v3\\approval-atlas.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 17396,
+  "decontaminated_pixels": 15062,
+  "spill_suppressed_pixels": 17396,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c5": 2531,
+    "r0c4": 2454,
+    "r0c3": 2220,
+    "r0c2": 2202,
+    "r0c6": 2174,
+    "r0c0": 1951,
+    "r0c7": 1945,
+    "r0c1": 1919
+  },
+  "alpha_preserved": true
+}

@@ -1,16 +1,26 @@
 {
   "ok": true,
-  "reviewer": "final_visual_qa",
-  "notes": [
-    "Happy tan-left and white-right identity, coral collar, compact round left-facing tan head preserved.",
-    "Idle tail alternates vertically. Pink outlined hearts emerge lowest then advance upward, matching latest direct user correction relayed by parent.",
-    "Jump has launch, visibly lifted bodies and landing. Running limbs alternate. Work, wait, wave, failure and review gestures remain distinct.",
-    "Head scale and non-jump foot registration stable. Upright gaze bodies differ naturally from folded seated idle; no gross scale pop, baseline jump or clipping.",
-    "All four gaze cardinals clear. Labeled clockwise sequence coherent with no gross reversal."
+  "reviewer": "primary agent approved source-cell equality and unchanged-row verification",
+  "sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "replaced_states": [
+    "waiting",
+    "review"
   ],
-  "warnings": [
-    "Intermediate angles045,067.5,112.5,202.5,225,247.5,292.5 have subtle component directions in isolation.",
-    "Continuity warnings for tiny bottom outline gaps and local pixel-difference outliers do not show visible registration failure."
+  "approved_cells_pixel_identical": true,
+  "unchanged_rows_pixel_identical": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10
   ],
-  "repair_rows": []
+  "native_gifs_match_approved_pixels_and_timing": true,
+  "unused_cells_transparent": true,
+  "baseline_visual_review": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T082549Z\\qa\\final-visual-review.json",
+  "installed": false,
+  "published": false
 }

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "first_effect_free_pose_bbox": [
+    8,
+    83,
+    184,
+    195
+  ],
+  "idle_bbox": [
+    7,
+    83,
+    185,
+    195
+  ],
+  "body_height_matched": true,
+  "ground_matched": true,
+  "common_scale_for_all_six_frames": true,
+  "gif_frames": 6,
+  "timing_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "installed": false,
+  "packaged": false,
+  "cloud_updated": false
+}

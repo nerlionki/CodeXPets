@@ -2,10 +2,11 @@
   "ok": true,
   "spriteVersionNumber": 2,
   "package": "D:\\个人项目\\CodeXPets\\dist\\maltese-retriever",
-  "sha256": "cc43e42fb66cc979a2aedc647f7b0762a53eea447a0734b88670df0ea01b2d3f",
+  "sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
   "installed": false,
   "visual_notes": [
-    "Approved outlined pink bubble artwork adapted to six native idle keyframes; actual timing shown in installer",
-    "Idle and jumping use visually reviewed stable-slot extraction"
+    "User-approved anthropomorphic waiting v20 and relaxed-arm review v21 integrated without scaling or redrawing",
+    "All other atlas rows pixel-identical to the idle-style-unified v19 baseline; original frame counts and native timing retained",
+    "Approval details: approval/anthro-wait-review-v20/status.json and approval/review-relaxed-v21/status.json"
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "ok": true,
+  "sprite_sha256": "d96ae146c314db34f7633ce2ecfa4911a83058cd0763a0bdb9b1ce7d108b668a",
+  "candidate": "processing-kiss-v18",
+  "approval_text": "\u53ef\u4ee5",
+  "atlas_size": [
+    1536,
+    2288
+  ],
+  "sprite_version_number": 2,
+  "changed_row": 7,
+  "source_frames": 6,
+  "translation_y": 0,
+  "source_pixel_identity": true,
+  "no_clipping": true,
+  "frame_bounds": [
+    [
+      8,
+      83,
+      184,
+      195
+    ],
+    [
+      9,
+      83,
+      185,
+      195
+    ],
+    [
+      9,
+      62,
+      183,
+      195
+    ],
+    [
+      8,
+      44,
+      184,
+      195
+    ],
+    [
+      7,
+      17,
+      183,
+      195
+    ],
+    [
+      8,
+      50,
+      183,
+      195
+    ]
+  ],
+  "unused_cells_transparent": [
+    6,
+    7
+  ],
+  "unchanged_rows_pixel_identical": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "baseline_atlas": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\build\\before-approved-20261021T074320Z\\final\\spritesheet-extended.webp",
+  "baseline_visual_review": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\build\\before-approved-20261021T074320Z\\qa\\final-visual-review.json",
+  "baseline_review_ok_and_hash_matches": true,
+  "walking_per_cell_mirror_still_exact": true,
+  "validation_extended_ok": true,
+  "gif_metadata": {
+    "size": [
+      192,
+      208
+    ],
+    "frames": 6,
+    "durations": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "loop": 0
+  }
+}

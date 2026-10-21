@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\four-keys-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\four-keys-clean.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 8055,
+  "decontaminated_pixels": 6917,
+  "spill_suppressed_pixels": 8055,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c2": 2093,
+    "r0c0": 2040,
+    "r0c3": 1976,
+    "r0c1": 1946
+  },
+  "alpha_preserved": true
+}

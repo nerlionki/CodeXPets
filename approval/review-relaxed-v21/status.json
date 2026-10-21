@@ -1,0 +1,81 @@
+{
+  "status": "approved_installed_and_cloud_synced",
+  "baseline_atlas_sha256": "457b35addf927d1e8f439bc841487889866db10dedc47e80360cd6331af98158",
+  "integrated": true,
+  "packaged": true,
+  "installed": true,
+  "cloud_updated": true,
+  "states": [
+    {
+      "state": "review",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "bounds": [
+        [
+          8,
+          83,
+          185,
+          195
+        ],
+        [
+          8,
+          84,
+          185,
+          195
+        ],
+        [
+          8,
+          87,
+          185,
+          195
+        ],
+        [
+          7,
+          81,
+          184,
+          195
+        ],
+        [
+          8,
+          83,
+          185,
+          195
+        ],
+        [
+          9,
+          83,
+          184,
+          195
+        ]
+      ],
+      "style": {
+        "line_width_before": 2.1402522154055896,
+        "line_width_after": 3.911764705882353,
+        "fractional_ink_adjustment": 0.8353360771711547,
+        "small_facial_features_protected": true
+      }
+    }
+  ],
+  "active_atlas_unchanged": false,
+  "static_visual_review": {
+    "arms_relaxed_no_clasping_or_chin_touch": true,
+    "waiting_approved_pixels_unchanged": true,
+    "reviewed_six_frame_contact_sheet": true,
+    "dynamic_playback_observed": false
+  },
+  "approval_by_state": {
+    "review": {
+      "status": "approved",
+      "user_text": "可以",
+      "gif_sha256": "353d065c86ff9d86a0264af1ad79db1fd10ffe466c2ced9817f5482f637af0de"
+    }
+  },
+  "integrated_state": "review"
+}

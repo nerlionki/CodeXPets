@@ -1,8 +1,8 @@
 {
-  "status": "user_approved_demo_packaged",
-  "installed": false,
+  "status": "approved_installed_and_cloud_synced",
+  "installed": true,
   "packaged": true,
-  "approval_text": "可以就按这版来",
+  "approval_text": "可以",
   "installer": "dist/CodeXPets-1.0.0-Windows-Setup.exe",
   "native_preview": "animation/pet-run/qa/previews/idle.gif",
   "native_adaptation": "28-frame approved demo adapted to Codex fixed six-frame native idle; actual preview shown before install",
@@ -12,5 +12,89 @@
   "heart_style": "black outline, pink fill",
   "heart_motion": "bubbles emerge low, rise upward, fade at top",
   "body_reference": "idle-reference-v3",
-  "other_candidate": "cheek-v2"
+  "pending_revision": {
+    "walk_candidate": "walk-gait-v16",
+    "hover_candidate": "hover-tu-v12",
+    "face_fix_candidate": "nuzzle-hearts-v3",
+    "status": "approved_installed_and_cloud_synced",
+    "installed": true,
+    "packaged": true,
+    "approval_text": "可以了",
+    "left_walk_candidate": "walk-gait-v16",
+    "walk_derivation": "New reference-based right walk; left is exact per-cell horizontal mirror with same frame order and timing"
+  },
+  "installed_release": {
+    "version": "1.0.0",
+    "spritesheet_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+    "matches_local_package": true,
+    "report": "release/1.0.0/local-install.json"
+  },
+  "packaged_revision": {
+    "version": "1.0.0",
+    "installer": "dist/CodeXPets-1.0.0-Windows-Setup.exe",
+    "installer_sha256": "71a76e361c324c157eae208c1300848da89092a6890a67f1d7aee747bd37ea33",
+    "spritesheet_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+    "installer_tests_passed": true,
+    "installed_in_real_codex": true,
+    "publication_report": "release/1.0.0/github-published.json"
+  },
+  "cloud_pet": {
+    "id": "pet_6ad72713d8b88191918cea885248f2ff",
+    "is_active": true,
+    "synchronized": true,
+    "verified_pixel_identical": true,
+    "report": "release/1.0.0/cloud-pet-sync.json"
+  },
+  "size_revision": {
+    "candidate": "running-size-v17",
+    "state": "running",
+    "row": 7,
+    "status": "superseded_by_kiss_animation",
+    "installed": false,
+    "packaged": false,
+    "cloud_updated": false
+  },
+  "processing_revision": {
+    "candidate": "processing-kiss-v18",
+    "state": "running",
+    "row": 7,
+    "status": "approved_installed_and_cloud_synced",
+    "installed": true,
+    "packaged": true,
+    "cloud_updated": true,
+    "approval_text": "可以"
+  },
+  "style_revision": {
+    "ok": true,
+    "reviewer": "primary agent static frame comparison and pixel invariants",
+    "sprite_sha256": "457b35addf927d1e8f439bc841487889866db10dedc47e80360cd6331af98158",
+    "candidate": "idle-style-unified-v19",
+    "idle_unchanged": true,
+    "all_alpha_pixel_identical": true,
+    "walking_exact_mirror": true,
+    "review_evidence": "D:\\个人项目\\CodeXPets\\approval\\idle-style-unified-v19\\before-after.png",
+    "dynamic_playback_observed": false,
+    "scope": "Idle palette and fractional line-weight calibration; tiny detached facial features protected; frame layout, poses and timing retained.",
+    "limitations": [
+      "Line weights are calibrated by raster measurements; original hand-drawn local variation remains."
+    ],
+    "installed": false,
+    "published": false,
+    "report": "approval/idle-style-unified-v19/style-report.json",
+    "packaged": true,
+    "installer_tests_passed": true
+  },
+  "cleanup_report": "approval/cleanup-20261021.json",
+  "waiting_review_revision": {
+    "waiting_candidate": "anthro-wait-review-v20",
+    "review_candidate": "review-relaxed-v21",
+    "waiting_approval_text": "等待输入可以",
+    "review_approval_text": "可以",
+    "integrated": true,
+    "packaged": true,
+    "installer_tests_passed": true,
+    "installed": true,
+    "cloud_updated": true,
+    "sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63"
+  }
 }

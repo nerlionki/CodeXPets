@@ -1,0 +1,159 @@
+{
+  "status": "awaiting_user_approval",
+  "atlas_sha256": "457b35addf927d1e8f439bc841487889866db10dedc47e80360cd6331af98158",
+  "previews": [
+    {
+      "state": "idle",
+      "file": "idle.gif",
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running-right",
+      "file": "running-right.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running-left",
+      "file": "running-left.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0
+    },
+    {
+      "state": "waving",
+      "file": "waving.gif",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "loop": 0
+    },
+    {
+      "state": "jumping",
+      "file": "jumping.gif",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "loop": 0
+    },
+    {
+      "state": "failed",
+      "file": "failed.gif",
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "loop": 0
+    },
+    {
+      "state": "waiting",
+      "file": "waiting.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running",
+      "file": "running.gif",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0
+    },
+    {
+      "state": "review",
+      "file": "review.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "loop": 0
+    },
+    {
+      "state": "look-loop",
+      "file": "look-loop.gif",
+      "frames": 16,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": 0
+    }
+  ]
+}

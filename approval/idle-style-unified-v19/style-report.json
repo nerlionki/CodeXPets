@@ -1,0 +1,421 @@
+{
+  "ok": true,
+  "method": "user-authorized Python palette and fractional ink calibration",
+  "baseline_sha256": "d96ae146c314db34f7633ce2ecfa4911a83058cd0763a0bdb9b1ce7d108b668a",
+  "sprite_sha256": "457b35addf927d1e8f439bc841487889866db10dedc47e80360cd6331af98158",
+  "idle_pixel_identical": true,
+  "all_alpha_pixel_identical": true,
+  "frame_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "idle_palette": [
+    [
+      4.0,
+      3.0,
+      3.0
+    ],
+    [
+      241.0,
+      206.0,
+      148.0
+    ],
+    [
+      253.0,
+      253.0,
+      253.0
+    ],
+    [
+      251.0,
+      92.0,
+      76.0
+    ],
+    [
+      250.0,
+      127.0,
+      121.0
+    ]
+  ],
+  "idle_line_width": 3.7453670957702645,
+  "rows": [
+    {
+      "state": "idle",
+      "palette_before": [
+        [
+          4.0,
+          3.0,
+          3.0
+        ],
+        [
+          241.0,
+          206.0,
+          148.0
+        ],
+        [
+          253.0,
+          253.0,
+          253.0
+        ],
+        [
+          251.0,
+          92.0,
+          76.0
+        ],
+        [
+          250.0,
+          127.0,
+          121.0
+        ]
+      ],
+      "unchanged": true
+    },
+    {
+      "state": "running-right",
+      "palette_before": [
+        [
+          4.0,
+          3.0,
+          2.0
+        ],
+        [
+          235.0,
+          205.0,
+          137.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          238.0,
+          28.0,
+          31.0
+        ],
+        [
+          239.0,
+          129.0,
+          91.0
+        ]
+      ],
+      "line_width_before": 2.1244298023314747,
+      "line_width_after": 3.6850041887740854,
+      "fractional_ink_adjustment": 0.8104686467193949,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "running-left",
+      "palette_before": [
+        [
+          4.0,
+          3.0,
+          2.0
+        ],
+        [
+          235.0,
+          205.0,
+          137.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          238.0,
+          28.0,
+          31.0
+        ],
+        [
+          239.0,
+          129.0,
+          91.0
+        ]
+      ],
+      "exact_mirror_of_right": true
+    },
+    {
+      "state": "waving",
+      "palette_before": [
+        [
+          5.0,
+          4.0,
+          3.0
+        ],
+        [
+          239.0,
+          207.0,
+          158.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          251.0,
+          81.0,
+          70.0
+        ],
+        [
+          247.0,
+          130.0,
+          107.0
+        ]
+      ],
+      "line_width_before": 3.804666304937602,
+      "line_width_after": 3.7721861471861473,
+      "fractional_ink_adjustment": -0.02964960458366872,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "jumping",
+      "palette_before": [
+        [
+          3.0,
+          2.0,
+          1.0
+        ],
+        [
+          239.0,
+          198.0,
+          118.0
+        ],
+        [
+          254.0,
+          253.0,
+          254.0
+        ],
+        [
+          244.0,
+          8.0,
+          27.0
+        ],
+        [
+          247.0,
+          88.0,
+          67.0
+        ]
+      ],
+      "line_width_before": 2.3515785157851576,
+      "line_width_after": 3.7610459873760145,
+      "fractional_ink_adjustment": 0.6968942899925534,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "failed",
+      "palette_before": [
+        [
+          5.0,
+          4.0,
+          2.0
+        ],
+        [
+          241.0,
+          204.0,
+          116.0
+        ],
+        [
+          253.0,
+          253.0,
+          253.0
+        ],
+        [
+          240.0,
+          45.0,
+          37.0
+        ],
+        [
+          248.0,
+          118.0,
+          84.0
+        ]
+      ],
+      "line_width_before": 2.3079922027290447,
+      "line_width_after": 3.4774787146388353,
+      "fractional_ink_adjustment": 0.7186874465206099,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "waiting",
+      "palette_before": [
+        [
+          4.0,
+          4.0,
+          2.0
+        ],
+        [
+          240.0,
+          207.0,
+          150.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          251.0,
+          91.0,
+          72.0
+        ],
+        [
+          249.0,
+          140.0,
+          112.0
+        ]
+      ],
+      "line_width_before": 2.9359207036158033,
+      "line_width_after": 3.681308830121022,
+      "fractional_ink_adjustment": 0.4047231960772306,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "running",
+      "palette_before": [
+        [
+          5.0,
+          4.0,
+          3.0
+        ],
+        [
+          240.0,
+          205.0,
+          145.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          251.0,
+          88.0,
+          71.0
+        ],
+        [
+          249.0,
+          123.0,
+          113.0
+        ]
+      ],
+      "line_width_before": 3.6218487394957983,
+      "line_width_after": 3.6914576390106997,
+      "fractional_ink_adjustment": 0.061759178137233084,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "review",
+      "palette_before": [
+        [
+          5.0,
+          4.0,
+          3.0
+        ],
+        [
+          245.0,
+          207.0,
+          145.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          248.0,
+          51.0,
+          51.0
+        ],
+        [
+          248.0,
+          117.5,
+          111.0
+        ]
+      ],
+      "line_width_before": 3.239389043912469,
+      "line_width_after": 3.563187226992017,
+      "fractional_ink_adjustment": 0.2529890259288978,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "look-row-9",
+      "palette_before": [
+        [
+          4.0,
+          4.0,
+          2.0
+        ],
+        [
+          247.0,
+          210.0,
+          139.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          252.0,
+          76.0,
+          68.0
+        ],
+        [
+          251.0,
+          127.0,
+          105.0
+        ]
+      ],
+      "line_width_before": 3.560881329725551,
+      "line_width_after": 3.67255029201817,
+      "fractional_ink_adjustment": 0.09224288302235673,
+      "small_facial_features_protected": true
+    },
+    {
+      "state": "look-row-10",
+      "palette_before": [
+        [
+          4.0,
+          4.0,
+          2.0
+        ],
+        [
+          244.0,
+          205.0,
+          124.0
+        ],
+        [
+          254.0,
+          253.0,
+          253.0
+        ],
+        [
+          250.0,
+          58.0,
+          50.0
+        ],
+        [
+          250.0,
+          144.0,
+          98.0
+        ]
+      ],
+      "line_width_before": 3.1643648297552303,
+      "line_width_after": 3.621446096117766,
+      "fractional_ink_adjustment": 0.2905011330075171,
+      "small_facial_features_protected": true
+    }
+  ],
+  "installed": false,
+  "published": false
+}

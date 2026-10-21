@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "running",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\processing-kiss-v18\\frames\\running\\05.png"
+      ]
+    }
+  ]
+}

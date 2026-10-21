@@ -1,0 +1,54 @@
+{
+  "single_generated_family": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\source\\four-keys.png",
+  "source_sha256": "c8b705a61faee6b814849fae699dbaf82d8d9f730fab46eb6ed3e02e0abeee42",
+  "source_key_order": [
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0
+  ],
+  "timing_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "whole_frames_only": true,
+  "scale": 0.9010989010989011,
+  "ground": 195,
+  "pixels_redrawn": false,
+  "component_bounds": [
+    [
+      25,
+      236,
+      500,
+      558
+    ],
+    [
+      564,
+      236,
+      1043,
+      551
+    ],
+    [
+      1105,
+      236,
+      1580,
+      554
+    ],
+    [
+      1651,
+      236,
+      2125,
+      551
+    ]
+  ]
+}

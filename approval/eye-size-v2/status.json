@@ -1,0 +1,11 @@
+{
+  "status": "awaiting_user_approval",
+  "candidate": "eye-size-v2",
+  "state": "failed",
+  "installed": false,
+  "packaged": false,
+  "release_changed": false,
+  "preview": "failed.gif",
+  "preview_2x": "failed-2x.gif",
+  "preview_sha256": "2b0472c5db1f0caa4500861ec48fcad44a0c501b3fa0d5b61dec5751bcff11bb"
+}

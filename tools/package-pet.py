@@ -13,6 +13,10 @@ def read(path):
 for path in [RUN / 'final/validation-extended.json', RUN / 'qa/chroma-despill-extended.json', RUN / 'qa/review.json', RUN / 'qa/direction-blind-validation.json', RUN / 'qa/final-visual-review.json']:
     if not read(path).get('ok'):
         raise SystemExit(f'Blocking QA report: {path}')
+source = RUN / 'final/spritesheet-extended.webp'
+source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+if read(RUN / 'qa/final-visual-review.json').get('sprite_sha256') != source_hash:
+    raise SystemExit('Final visual review does not cover the current atlas hash')
 semantics = read(RUN / 'qa/direction-semantics.json')
 def has_failed_verdict(value):
     if isinstance(value, dict):
@@ -23,9 +27,8 @@ if has_failed_verdict(semantics):
 request = read(RUN / 'pet_request.json')
 package = RUN.parents[1] / 'dist' / 'maltese-retriever'
 package.mkdir(parents=True, exist_ok=True)
-source = RUN / 'final/spritesheet-extended.webp'
 shutil.copy2(source, package / 'spritesheet.webp')
-meta = {'id': 'maltese-retriever', 'displayName': '小白和小鸡毛', 'description': '开心的小白和小鸡毛：小鸡毛上下摇尾，黑色描边的粉色爱心像气泡一样向上冒出。', 'spriteVersionNumber': 2, 'spritesheetPath': 'spritesheet.webp'}
+meta = {'id': 'maltese-retriever', 'displayName': '小白和小鸡毛', 'description': '开心的小白和小鸡毛：摇尾冒爱心、手挽手行走、圆润跳跃、合手等待、放松双手点头审阅；处理任务时小鸡毛亲吻小白，粉色爱心向上冒出。', 'spriteVersionNumber': 2, 'spritesheetPath': 'spritesheet.webp'}
 (package / 'pet.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding='utf-8')
 spec = importlib.util.spec_from_file_location('pet_previews', SKILL / 'scripts/render_animation_previews.py')
 preview = importlib.util.module_from_spec(spec)
@@ -37,6 +40,6 @@ for row, (state, duration) in enumerate(preview.ROW_DURATIONS.items()):
 looks = [atlas.crop((i*192,r*208,(i+1)*192,(r+1)*208)) for r in [9,10] for i in range(8)]
 preview.save_preview(looks, [180]*16, RUN / 'qa/previews/look-loop.gif')
 shutil.make_archive(str(package.parent / 'maltese-retriever-1.0.0'), 'zip', package.parent, package.name)
-summary = {'ok': True, 'spriteVersionNumber': 2, 'package': str(package), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(), 'installed': False, 'visual_notes': ['Approved outlined pink bubble artwork adapted to six native idle keyframes; actual timing shown in installer', 'Idle and jumping use visually reviewed stable-slot extraction']}
+summary = {'ok': True, 'spriteVersionNumber': 2, 'package': str(package), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(), 'installed': False, 'visual_notes': ['User-approved anthropomorphic waiting v20 and relaxed-arm review v21 integrated without scaling or redrawing', 'All other atlas rows pixel-identical to the idle-style-unified v19 baseline; original frame counts and native timing retained', 'Approval details: approval/anthro-wait-review-v20/status.json and approval/review-relaxed-v21/status.json']}
 (RUN / 'qa/run-summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(summary, ensure_ascii=True, indent=2))

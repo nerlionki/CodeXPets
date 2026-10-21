@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "frames_root": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames",
+  "states": [
+    "failed"
+  ],
+  "errors": [],
+  "warnings": [
+    "failed used extraction method stable-slots; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method stable-slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16744,
+          "bbox": [
+            7,
+            68,
+            184,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16854,
+          "bbox": [
+            7,
+            67,
+            185,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16904,
+          "bbox": [
+            7,
+            66,
+            185,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16906,
+          "bbox": [
+            7,
+            66,
+            184,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16924,
+          "bbox": [
+            7,
+            66,
+            185,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16936,
+          "bbox": [
+            7,
+            66,
+            184,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16943,
+          "bbox": [
+            7,
+            66,
+            184,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16950,
+          "bbox": [
+            8,
+            65,
+            185,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "ok": true,
+  "frames_root": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames",
+  "states": [
+    "waiting",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "waiting used extraction method stable-slots; component extraction is preferred",
+    "review used extraction method stable-slots; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method stable-slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14372,
+          "bbox": [
+            11,
+            83,
+            181,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14265,
+          "bbox": [
+            11,
+            83,
+            181,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13502,
+          "bbox": [
+            16,
+            83,
+            177,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13922,
+          "bbox": [
+            14,
+            83,
+            178,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14107,
+          "bbox": [
+            15,
+            83,
+            179,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14315,
+          "bbox": [
+            11,
+            83,
+            181,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method stable-slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15215,
+          "bbox": [
+            7,
+            84,
+            185,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15260,
+          "bbox": [
+            7,
+            84,
+            185,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15053,
+          "bbox": [
+            7,
+            87,
+            185,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15197,
+          "bbox": [
+            7,
+            84,
+            185,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15171,
+          "bbox": [
+            7,
+            84,
+            184,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15142,
+          "bbox": [
+            7,
+            84,
+            184,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

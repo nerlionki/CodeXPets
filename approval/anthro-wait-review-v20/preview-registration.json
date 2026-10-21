@@ -1,0 +1,18 @@
+[
+  {
+    "state": "waiting",
+    "scale": 0.9333333333333333,
+    "ground": 195,
+    "preserve_vertical_motion": true,
+    "safe_margin": 4,
+    "match_reference_height": true
+  },
+  {
+    "state": "review",
+    "scale": 0.978021978021978,
+    "ground": 195,
+    "preserve_vertical_motion": true,
+    "safe_margin": 4,
+    "match_reference_height": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\approval-atlas-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\eye-size-v2\\approval-atlas.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 17188,
+  "decontaminated_pixels": 14887,
+  "spill_suppressed_pixels": 17188,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c5": 2201,
+    "r0c2": 2158,
+    "r0c0": 2157,
+    "r0c3": 2152,
+    "r0c6": 2152,
+    "r0c1": 2133,
+    "r0c7": 2123,
+    "r0c4": 2112
+  },
+  "alpha_preserved": true
+}

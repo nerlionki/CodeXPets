@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "sprite_sha256": "d96ae146c314db34f7633ce2ecfa4911a83058cd0763a0bdb9b1ce7d108b668a",
+  "candidate": "processing-kiss-v18",
+  "approval_text": "可以",
+  "atlas_size": [
+    1536,
+    2288
+  ],
+  "sprite_version_number": 2,
+  "changed_row": 7,
+  "source_frames": 6,
+  "translation_y": 0,
+  "source_pixel_identity": true,
+  "no_clipping": true,
+  "frame_bounds": [
+    [
+      8,
+      83,
+      184,
+      195
+    ],
+    [
+      9,
+      83,
+      185,
+      195
+    ],
+    [
+      9,
+      62,
+      183,
+      195
+    ],
+    [
+      8,
+      44,
+      184,
+      195
+    ],
+    [
+      7,
+      17,
+      183,
+      195
+    ],
+    [
+      8,
+      50,
+      183,
+      195
+    ]
+  ],
+  "unused_cells_transparent": [
+    6,
+    7
+  ],
+  "unchanged_rows_pixel_identical": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "baseline_atlas": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T074320Z\\final\\spritesheet-extended.webp",
+  "baseline_visual_review": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T074320Z\\qa\\final-visual-review.json",
+  "baseline_review_ok_and_hash_matches": true,
+  "walking_per_cell_mirror_still_exact": true,
+  "validation_extended_ok": true,
+  "gif_metadata": {
+    "size": [
+      192,
+      208
+    ],
+    "frames": 6,
+    "durations": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "loop": 0
+  },
+  "reviewer": "independent final processing-kiss integration QA",
+  "reviewed_at_utc": "2026-10-21T07:44:54.567493+00:00",
+  "sprite_path": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\final\\spritesheet-extended.webp",
+  "user_approved_candidate": "processing-kiss-v18",
+  "final_atlas_row_visually_inspected": true,
+  "visual_evidence": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\independent-final-processing-row.png",
+  "dynamic_playback_observed": false,
+  "inherited_visual_qa": {
+    "rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "basis": "Independent RGBA byte equality to the prior atlas with a matching-hash ok:true final visual review. Previous walking and look-direction QA applies to these unchanged pixels.",
+    "prior_report": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T074320Z\\qa\\final-visual-review.json"
+  },
+  "notes": [
+    "User approval text is 可以 for processing-kiss-v18. Only row 7 running was replaced, using all six approved source cells with zero translation, scaling, redraw or secondary cleanup.",
+    "Visually inspected the six cells decoded from the actual final WebP. The golden kisses the happy white character in frames 2/3; black-outlined pink hearts ascend, upright seated anatomy and canonical idle-size bodies remain intact.",
+    "All six cells are exactly equal to approved PNG RGBA pixels; the two unused cells are transparent. Heart tips, ears, tails and bodies have edge clearance and are not clipped.",
+    "The other ten rows are pixel-identical to the indicated prior atlas; exact per-cell horizontal mirroring of walking rows remains verified.",
+    "GIF metadata is six 192x208 frames, 120ms x5 plus 220ms, infinite loop. This is a metadata and static-frame review, not an observation of dynamic playback."
+  ],
+  "warnings": [
+    "The approved kiss uses subtle cheek/temple contact rather than exaggerated lips.",
+    "Heart positions reset toward the loop end, preserving the approved six-frame cycle.",
+    "Unchanged rows retain previously documented simplified walking passing phases and subtle distinctions among some intermediate look directions."
+  ],
+  "repair_rows": []
+}

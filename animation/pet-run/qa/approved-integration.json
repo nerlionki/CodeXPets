@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "approval_text": "等待输入可以；检查结果新版：可以",
+  "backup": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T082549Z",
+  "sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "replaced_rows": [
+    {
+      "state": "waiting",
+      "row": 6,
+      "candidate": "anthro-wait-review-v20",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "fa1ce107ee4b5eb95767df5609f14c9aba985b939be52adbd45b9b115df4819d",
+        "861b5e8291442efcde0abd2cab077c340cd96295491bf76ca4d5a6247894b10c",
+        "4d7922984be8060b2b13e014a296e28c8066ddb4e29a6f871e14d0ac92738248",
+        "f9e71250146b9d6eaa4b214e4380a04e11e702c92341822fcbe34632a72263ff",
+        "904156a8b9580bcec00f49250a80b6499c03a8e8e5965066039152bd863bf1d2",
+        "ce1093366080b81efcdf9c4dd5c1089c7d0bc0c2077db69e466b87902ea86d00"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\anthro-wait-review-v20\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\anthro-wait-review-v20\\final-visual-review.json"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "candidate": "review-relaxed-v21",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "3d131329336d8b2714ff4038d278ef9f7d5cdb6382d947f753191fa05835276f",
+        "39382b6bcd766b51c1689c495170255cc565155580bb462f75b28e796b43ba11",
+        "e2e2ebec543b4df36bd20ea79290e98e02ddd0d1b70f34919e5ccbbcb894c3f3",
+        "20efd68655ecec6e52c7aac2dc4edf471d2be2801639da59538b35bf485d6c2e",
+        "ceabee8b5f39962513aae6edde239a56e9fbdca6f524b77079303b68bf50b439",
+        "cec3e40e6c7b07a674efcc5752eafda5674fcbd32ca9f631a44289b626fda832"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\review-relaxed-v21\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\review-relaxed-v21\\final-visual-review.json"
+    }
+  ],
+  "unchanged_rows_pixel_identical": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10
+  ],
+  "approved_pixel_identity_preserved_with_recorded_translation": true,
+  "installed": false,
+  "published": false
+}

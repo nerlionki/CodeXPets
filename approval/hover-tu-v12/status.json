@@ -1,0 +1,17 @@
+{
+  "candidate": "hover-tu-v12",
+  "state": "jumping",
+  "preview": "jumping.gif",
+  "preview_2x": "jumping-2x.gif",
+  "preview_sha256": "dbe2327b23a1275392e4c561cfc7af6c100d40b1888f2866cee1ce7beb57f513",
+  "requirements": [
+    "Both characters have rounded tu-like silhouettes with short feet extended sideways",
+    "Original faces and idle tail preserved",
+    "Paws-in before jump and upward hearts retained"
+  ],
+  "status": "approved_packaged",
+  "approval_text": "先这样吧",
+  "installed": false,
+  "packaged": true,
+  "release_changed": false
+}

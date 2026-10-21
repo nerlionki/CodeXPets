@@ -15,7 +15,13 @@
   "errors": [],
   "warnings": [
     "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped",
-    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
   ],
   "rows": [
     {
@@ -42,7 +48,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 151
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
@@ -57,7 +63,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 176
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
@@ -72,7 +78,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 195
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
@@ -87,7 +93,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 198
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
@@ -102,7 +108,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 174
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
@@ -117,7 +123,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 158
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -125,130 +131,132 @@
       "state": "running-right",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15785,
+          "nontransparent_pixels": 12588,
           "bbox": [
-            20,
-            70,
-            187,
+            19,
+            86,
+            183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 241
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16598,
+          "nontransparent_pixels": 13284,
           "bbox": [
-            15,
-            65,
-            182,
-            195
+            22,
+            86,
+            186,
+            197
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 232
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16717,
+          "nontransparent_pixels": 12560,
           "bbox": [
-            16,
-            63,
+            19,
+            86,
             183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 230
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17098,
+          "nontransparent_pixels": 13261,
           "bbox": [
-            18,
-            63,
-            185,
-            195
+            15,
+            87,
+            179,
+            198
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 228
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16787,
+          "nontransparent_pixels": 12588,
           "bbox": [
-            12,
-            63,
-            179,
+            19,
+            86,
+            183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 226
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16399,
+          "nontransparent_pixels": 13284,
           "bbox": [
-            14,
-            64,
-            181,
-            195
+            22,
+            86,
+            186,
+            197
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 210
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16855,
+          "nontransparent_pixels": 12560,
           "bbox": [
             19,
-            64,
-            186,
+            86,
+            183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 199
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-right\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17338,
+          "nontransparent_pixels": 13261,
           "bbox": [
-            17,
-            62,
-            184,
-            195
+            15,
+            87,
+            179,
+            198
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 279
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -256,130 +264,132 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13046,
+          "nontransparent_pixels": 12588,
           "bbox": [
-            10,
-            91,
-            180,
+            9,
+            86,
+            173,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 173
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14119,
+          "nontransparent_pixels": 13284,
           "bbox": [
-            5,
-            84,
-            175,
-            195
+            6,
+            86,
+            170,
+            197
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 176
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13200,
+          "nontransparent_pixels": 12560,
           "bbox": [
-            10,
-            90,
-            180,
+            9,
+            86,
+            173,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 186
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14044,
+          "nontransparent_pixels": 13261,
           "bbox": [
-            5,
-            85,
-            175,
-            195
+            13,
+            87,
+            177,
+            198
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 180
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13372,
+          "nontransparent_pixels": 12588,
           "bbox": [
             9,
-            89,
-            179,
+            86,
+            173,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13898,
+          "nontransparent_pixels": 13284,
           "bbox": [
-            5,
-            85,
-            175,
-            195
+            6,
+            86,
+            170,
+            197
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 182
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13413,
+          "nontransparent_pixels": 12560,
           "bbox": [
             9,
-            89,
-            179,
+            86,
+            173,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 203
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running-left\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14142,
+          "nontransparent_pixels": 13261,
           "bbox": [
-            5,
-            84,
-            175,
-            195
+            13,
+            87,
+            177,
+            198
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 176
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -405,7 +415,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 59
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
@@ -420,7 +430,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 81
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
@@ -435,7 +445,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 72
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
@@ -450,7 +460,7 @@
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 52
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -470,75 +480,75 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16069,
+          "nontransparent_pixels": 13540,
           "bbox": [
-            5,
-            73,
-            185,
-            195
+            13,
+            89,
+            179,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 86
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17349,
+          "nontransparent_pixels": 13366,
           "bbox": [
-            7,
-            49,
-            179,
-            189
+            5,
+            44,
+            186,
+            165
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 99
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17466,
+          "nontransparent_pixels": 13523,
           "bbox": [
-            6,
-            18,
-            179,
-            159
+            5,
+            23,
+            187,
+            155
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 105
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17170,
+          "nontransparent_pixels": 13277,
           "bbox": [
+            5,
             9,
-            41,
-            181,
-            180
+            187,
+            164
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 88
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16171,
+          "nontransparent_pixels": 13473,
           "bbox": [
-            5,
-            72,
-            185,
-            195
+            14,
+            89,
+            178,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 106
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -546,130 +556,132 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20574,
+          "nontransparent_pixels": 15523,
           "bbox": [
-            8,
-            56,
-            187,
+            11,
+            73,
+            182,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 284
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21133,
+          "nontransparent_pixels": 15292,
           "bbox": [
-            8,
-            53,
-            187,
+            13,
+            71,
+            179,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 234
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20413,
+          "nontransparent_pixels": 15524,
           "bbox": [
-            8,
-            58,
-            187,
+            14,
+            50,
+            178,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 264
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19187,
+          "nontransparent_pixels": 16083,
           "bbox": [
-            8,
-            65,
-            187,
+            14,
+            33,
+            176,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 247
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21194,
+          "nontransparent_pixels": 16134,
           "bbox": [
-            8,
-            54,
-            187,
+            13,
+            20,
+            177,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 284
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20692,
+          "nontransparent_pixels": 16064,
           "bbox": [
-            8,
-            57,
-            187,
+            14,
+            6,
+            176,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 282
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21975,
+          "nontransparent_pixels": 15588,
           "bbox": [
-            8,
-            47,
-            187,
+            13,
+            22,
+            177,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 304
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22001,
+          "nontransparent_pixels": 15135,
           "bbox": [
-            8,
-            47,
-            187,
+            14,
+            73,
+            179,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 340
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -677,100 +689,102 @@
       "state": "waiting",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19936,
+          "nontransparent_pixels": 14372,
           "bbox": [
-            6,
-            56,
-            187,
+            11,
+            83,
+            181,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 193
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20258,
+          "nontransparent_pixels": 14265,
           "bbox": [
-            6,
-            57,
-            187,
+            11,
+            83,
+            181,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 202
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20223,
+          "nontransparent_pixels": 13502,
           "bbox": [
-            6,
-            57,
-            187,
+            16,
+            83,
+            177,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 199
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20167,
+          "nontransparent_pixels": 13922,
           "bbox": [
-            6,
-            57,
-            187,
+            14,
+            83,
+            178,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 214
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19914,
+          "nontransparent_pixels": 14107,
           "bbox": [
-            6,
-            56,
-            187,
+            15,
+            83,
+            179,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 209
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19780,
+          "nontransparent_pixels": 14315,
           "bbox": [
-            5,
-            56,
-            186,
+            11,
+            83,
+            181,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 192
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -778,100 +792,102 @@
       "state": "running",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20176,
+          "nontransparent_pixels": 14482,
           "bbox": [
-            5,
-            57,
-            183,
+            8,
+            83,
+            184,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 171
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18662,
+          "nontransparent_pixels": 14334,
           "bbox": [
-            5,
-            68,
-            183,
+            9,
+            83,
+            185,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 170
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17845,
+          "nontransparent_pixels": 14437,
           "bbox": [
-            5,
-            73,
+            9,
+            62,
             183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 150
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20044,
+          "nontransparent_pixels": 15356,
           "bbox": [
-            6,
-            57,
+            8,
+            44,
             184,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 181
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19980,
+          "nontransparent_pixels": 16070,
           "bbox": [
-            6,
-            57,
-            184,
+            7,
+            17,
+            183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 205
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 20027,
+          "nontransparent_pixels": 14882,
           "bbox": [
-            6,
-            57,
-            184,
+            8,
+            50,
+            183,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 173
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -879,100 +895,102 @@
       "state": "review",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17739,
+          "nontransparent_pixels": 15360,
           "bbox": [
-            6,
-            70,
+            8,
+            83,
             185,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 160
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17433,
+          "nontransparent_pixels": 15199,
           "bbox": [
-            6,
-            70,
+            8,
+            84,
             185,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 151
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16592,
+          "nontransparent_pixels": 14751,
           "bbox": [
-            5,
-            77,
-            184,
+            8,
+            87,
+            185,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 144
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17530,
+          "nontransparent_pixels": 15665,
           "bbox": [
-            6,
-            70,
-            185,
+            7,
+            81,
+            184,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 151
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17256,
+          "nontransparent_pixels": 15218,
           "bbox": [
-            6,
-            72,
+            8,
+            83,
             185,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 142
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17968,
+          "nontransparent_pixels": 15172,
           "bbox": [
-            6,
-            69,
-            185,
+            9,
+            83,
+            184,
             195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 155
+          "chroma_adjacent_pixels": 0
         }
       ]
     }

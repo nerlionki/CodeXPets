@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\hover-tu-v12\\approval-atlas-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\hover-tu-v12\\approval-atlas.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 9534,
+  "decontaminated_pixels": 7911,
+  "spill_suppressed_pixels": 9534,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 2095,
+    "r0c1": 2086,
+    "r0c2": 2048,
+    "r0c4": 1666,
+    "r0c0": 1639
+  },
+  "alpha_preserved": true
+}

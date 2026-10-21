@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\approval-atlas-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\anthro-wait-review-v20\\approval-atlas.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 18658,
+  "decontaminated_pixels": 18469,
+  "spill_suppressed_pixels": 18658,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c4": 1695,
+    "r0c5": 1674,
+    "r0c1": 1666,
+    "r0c0": 1652,
+    "r0c3": 1643,
+    "r0c2": 1602,
+    "r1c3": 1484,
+    "r1c0": 1473,
+    "r1c4": 1466,
+    "r1c2": 1462,
+    "r1c1": 1436,
+    "r1c5": 1405
+  },
+  "alpha_preserved": true
+}

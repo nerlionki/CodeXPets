@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96
+  },
+  "rows": [
+    {
+      "state": "running-right",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\05.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\06.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\07.png"
+      ]
+    },
+    {
+      "state": "running-left",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\05.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\06.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-left\\07.png"
+      ]
+    }
+  ]
+}

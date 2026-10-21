@@ -101,8 +101,10 @@
         "reason": "no deterministic derivation is configured for this state"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15741-173e-7351-870a-9261a1e6483f\\exec-6b8d5826-b899-46cf-828b-44a91d116eeb.png",
-      "completed_at": "2026-10-20T03:04:15.456878+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\walk-gait-v16\\source\\four-keys.png",
+      "completed_at": "2026-10-20T03:04:15.456878+00:00",
+      "approved_candidate": "walk-gait-v16",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\running-right\\frames\\running-right"
     },
     {
       "id": "running-left",
@@ -161,8 +163,10 @@
         "requires_explicit_approval": true,
         "fallback_generation_skill": "$imagegen"
       },
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15756-5ef2-7532-b1ed-9bd486242914\\exec-a3bd0dcd-6f17-4e8d-bc28-c48b21214348.png",
-      "completed_at": "2026-10-20T03:26:21.058507+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\walk-gait-v16\\source\\four-keys.png",
+      "completed_at": "2026-10-20T03:26:21.058507+00:00",
+      "approved_candidate": "walk-gait-v16",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\running-left\\frames\\running-left"
     },
     {
       "id": "waving",
@@ -243,8 +247,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15743-60c0-7ad3-a506-80bf5a0d080a\\exec-71a7eadf-4b2a-4925-a336-8a1b5f988490.png",
-      "completed_at": "2026-10-20T03:11:21.709276+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\hover-tu-v12\\source\\jumping.png",
+      "completed_at": "2026-10-20T03:11:21.709276+00:00",
+      "approved_candidate": "hover-tu-v12",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\jumping\\frames\\jumping"
     },
     {
       "id": "failed",
@@ -284,8 +290,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15744-9f67-7882-8586-15aabef6e4ae\\exec-d541415e-3aa7-4b64-9cd4-88dc2ec469f7.png",
-      "completed_at": "2026-10-20T03:06:32.310769+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\nuzzle-hearts-v3\\source\\failed.png",
+      "completed_at": "2026-10-20T03:06:32.310769+00:00",
+      "approved_candidate": "nuzzle-hearts-v3",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\failed\\frames\\failed"
     },
     {
       "id": "waiting",
@@ -325,8 +333,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15744-81cf-7713-ab85-25c79b13afd5\\exec-63427a5c-d90e-4a3f-9461-bcbab7661cd4.png",
-      "completed_at": "2026-10-20T03:06:02.267884+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\anthro-wait-review-v20\\source\\waiting.png",
+      "completed_at": "2026-10-20T03:06:02.267884+00:00",
+      "approved_candidate": "anthro-wait-review-v20",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\waiting\\frames\\waiting"
     },
     {
       "id": "running",
@@ -366,8 +376,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15746-0637-7ab1-8a4f-99505ae1d067\\exec-8e5b4344-e8c0-49e9-bc84-59bed9eccf10.png",
-      "completed_at": "2026-10-20T03:07:38.404350+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\processing-kiss-v18\\source\\running.png",
+      "completed_at": "2026-10-20T03:07:38.404350+00:00",
+      "approved_candidate": "processing-kiss-v18",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\running\\frames\\running"
     },
     {
       "id": "review",
@@ -407,8 +419,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15746-ba47-7ac0-a922-0b541f18e560\\exec-023bdc69-46e1-4e7e-a3bc-f49d3060ae80.png",
-      "completed_at": "2026-10-20T03:09:57.032642+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\review-relaxed-v21\\source\\review.png",
+      "completed_at": "2026-10-20T03:09:57.032642+00:00",
+      "approved_candidate": "review-relaxed-v21",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\review\\frames\\review"
     },
     {
       "id": "look-cardinals",

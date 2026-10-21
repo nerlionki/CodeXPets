@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import ssl
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -35,7 +36,16 @@ def request(token, url, method='GET', data=None, content_type='application/json'
     if data is not None:
         headers['Content-Type'] = content_type
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers, method=method), timeout=120) as response:
+        # Use an explicit trusted CA bundle when available in the bundled runtime.
+        # Certificate verification remains enabled.
+        try:
+            import certifi
+            context = ssl.create_default_context(cafile=certifi.where())
+        except ImportError:
+            context = ssl.create_default_context()
+        with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers, method=method), timeout=120, context=context) as response:
+            if response.status == 204:
+                return None
             return json.load(response)
     except urllib.error.HTTPError as error:
         if error.code == 404:
@@ -45,6 +55,7 @@ def request(token, url, method='GET', data=None, content_type='application/json'
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('action', choices=['inspect', 'publish'])
+    parser.add_argument('--replace-existing', action='store_true', help='Explicitly replace assets/body of the existing v1.0.0 release')
     args = parser.parse_args()
     token = credential()
     api = 'https://api.github.com/repos/' + REPO
@@ -59,8 +70,11 @@ def main():
     sha = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     notes = (ROOT/'release/1.0.0/RELEASE_NOTES.md').read_text(encoding='utf-8-sig')
     release = request(token, api+'/releases/tags/v1.0.0')
-    if release and not release['draft']:
+    if release and not release['draft'] and not args.replace_existing:
         raise RuntimeError('v1.0.0 is already published; refusing to overwrite')
+    if release and args.replace_existing:
+        backup = ROOT/'build'/'release-before-republish.json'
+        backup.write_text(json.dumps(release, ensure_ascii=False, indent=2), encoding='utf-8')
     if not release:
         drafts = [r for r in request(token, api+'/releases') if r['tag_name']=='v1.0.0']
         release = drafts[0] if drafts else request(token, api+'/releases', 'POST', {
@@ -77,15 +91,27 @@ def main():
         old = next((a for a in assets if a['name']==name), None)
         if old:
             if old.get('digest') != 'sha256:'+sha256:
-                raise RuntimeError('Existing draft asset differs: '+name)
-            asset = old
+                if not args.replace_existing:
+                    raise RuntimeError('Existing draft asset differs: '+name)
+                # Upload and verify the replacement before removing the old asset.
+                temporary_name = name + '.update-' + sha256[:12]
+                asset = next((a for a in assets if a['name']==temporary_name), None)
+                if asset is None:
+                    upload = release['upload_url'].split('{',1)[0]+'?'+urllib.parse.urlencode({'name':temporary_name})
+                    asset = request(token, upload, 'POST', content, content_type)
+                if asset['size'] != len(content) or asset.get('digest') != 'sha256:'+sha256:
+                    raise RuntimeError('Replacement asset verification failed: '+name)
+                request(token, api+'/releases/assets/'+str(old['id']), 'DELETE')
+                asset = request(token, api+'/releases/assets/'+str(asset['id']), 'PATCH', {'name':name})
+            else:
+                asset = old
         else:
             upload = release['upload_url'].split('{',1)[0]+'?'+urllib.parse.urlencode({'name':name})
             asset = request(token, upload, 'POST', content, content_type)
         if asset['size'] != len(content) or asset.get('digest') != 'sha256:'+sha256:
             raise RuntimeError('Uploaded asset verification failed: '+name)
         published_assets.append({'name':name, 'size':len(content), 'sha256':sha256, 'url':asset['browser_download_url']})
-    release = request(token, release_api, 'PATCH', {'draft':False, 'body':notes, 'make_latest':'true'})
+    release = request(token, release_api, 'PATCH', {'draft':False, 'name':'CodeX Pets 1.0.0 · 小白和小鸡毛', 'body':notes, 'make_latest':'true'})
     verified = request(token, api+'/releases/tags/v1.0.0')
     if not verified or verified['draft'] or len(verified['assets']) != 4:
         raise RuntimeError('Published release verification failed')

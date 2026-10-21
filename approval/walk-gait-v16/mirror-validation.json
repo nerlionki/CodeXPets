@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "source_atlas_sha256": "a7b851644b2685ba9966e637c57f850717057a1c6eb518ba4d89ed70dbf712af",
+  "source_frame_paths": [
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\00.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\01.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\02.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\03.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\04.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\05.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\06.png",
+    "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\walk-gait-v16\\frames\\running-right\\07.png"
+  ],
+  "source_frame_sha256": [
+    "df04c4e1b840030716b717f8ccf9b18e4d18fa5f98f07a2dc721f5a320e4d6f0",
+    "edc9a120ab9a22c171c3afd6bf49cecec3eaf162dba3718d6d12e691f75cd639",
+    "0bd16e8e186151367ba71a5da2cb47c20b3c33581e4158d02095cca32366698d",
+    "0927a02a6e7e06cb6bcae3207037fdc9a65cfc3403267b0e2ce873d8289c4a3a",
+    "df04c4e1b840030716b717f8ccf9b18e4d18fa5f98f07a2dc721f5a320e4d6f0",
+    "edc9a120ab9a22c171c3afd6bf49cecec3eaf162dba3718d6d12e691f75cd639",
+    "0bd16e8e186151367ba71a5da2cb47c20b3c33581e4158d02095cca32366698d",
+    "0927a02a6e7e06cb6bcae3207037fdc9a65cfc3403267b0e2ce873d8289c4a3a"
+  ],
+  "source_row": 1,
+  "derived_state": "running-left",
+  "operation": "horizontal mirror of each cell, same frame order",
+  "frames": 8,
+  "durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "previous_left_was_exact_mirror": false,
+  "all_new_left_frames_are_exact_right_mirrors": true,
+  "alpha_and_pixel_colors_preserved": true,
+  "characters_swap_screen_positions": true,
+  "installed": false,
+  "packaged": false,
+  "cloud_updated": false,
+  "status": "awaiting_user_approval"
+}

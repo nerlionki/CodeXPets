@@ -1,0 +1,11 @@
+{
+  "operation": "crop blank outer canvas boundary",
+  "crop": [
+    0,
+    3,
+    2172,
+    721
+  ],
+  "source_sha256": "abdfe319c6f12db840f9d4ffd4a089961bb4cb0f7b0f87e507b76de8e12a0e1a",
+  "character_pixels_redrawn": false
+}

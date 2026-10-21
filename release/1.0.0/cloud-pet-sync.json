@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "pet_id": "pet_6ad72713d8b88191918cea885248f2ff",
+  "candidate": "idle-style-v19-waiting-v20-review-v21",
+  "is_active": true,
+  "is_custom": true,
+  "active_selection_preserved": true,
+  "verified_cloud_pixels_match_local": true,
+  "local_sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "cloud_encoded_sha256": "8323e467feb4746d8de47a4cd3519d21990f1bfaf16be7fcbe1862bac3246794",
+  "rgba_sha256": "da873ccd1cf020def25b8f5275a6996a2f1ca37877335d8a8b3dc90f4a73456f"
+}

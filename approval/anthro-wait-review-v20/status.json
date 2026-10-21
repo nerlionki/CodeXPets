@@ -1,0 +1,135 @@
+{
+  "status": "approved_waiting_installed_cloud_synced_review_superseded",
+  "states": [
+    {
+      "state": "waiting",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "bounds": [
+        [
+          11,
+          83,
+          181,
+          195
+        ],
+        [
+          11,
+          83,
+          181,
+          195
+        ],
+        [
+          16,
+          83,
+          177,
+          195
+        ],
+        [
+          14,
+          83,
+          178,
+          195
+        ],
+        [
+          15,
+          83,
+          179,
+          195
+        ],
+        [
+          11,
+          83,
+          181,
+          195
+        ]
+      ],
+      "style": {
+        "line_width_before": 3.0127167630057805,
+        "line_width_after": 3.5498177399756985,
+        "fractional_ink_adjustment": 0.3991038033710592,
+        "small_facial_features_protected": true
+      }
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "bounds": [
+        [
+          7,
+          84,
+          185,
+          195
+        ],
+        [
+          7,
+          84,
+          185,
+          195
+        ],
+        [
+          7,
+          87,
+          185,
+          195
+        ],
+        [
+          7,
+          84,
+          185,
+          195
+        ],
+        [
+          7,
+          84,
+          184,
+          195
+        ],
+        [
+          7,
+          84,
+          184,
+          195
+        ]
+      ],
+      "style": {
+        "line_width_before": 2.1243098544420276,
+        "line_width_after": 3.8327291558777836,
+        "fractional_ink_adjustment": 0.8433072576529357,
+        "small_facial_features_protected": true
+      }
+    }
+  ],
+  "baseline_atlas_sha256": "457b35addf927d1e8f439bc841487889866db10dedc47e80360cd6331af98158",
+  "integrated": true,
+  "packaged": true,
+  "installed": true,
+  "cloud_updated": true,
+  "active_atlas_unchanged": false,
+  "approval_by_state": {
+    "waiting": {
+      "status": "approved",
+      "user_text": "等待输入可以",
+      "gif_sha256": "f29a024b4cdee30f4e42439aad78f185f5e0cf47168cde08f04d3567494e35ad"
+    },
+    "review": {
+      "status": "revision_requested",
+      "user_text": "检查结果我不希望有如图所示的手势"
+    }
+  },
+  "integrated_state": "waiting"
+}

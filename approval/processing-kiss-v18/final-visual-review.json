@@ -1,0 +1,48 @@
+{
+  "reviewType": "independent final-still visual QA",
+  "ok": true,
+  "decision": "suitable_for_user_gif_approval",
+  "productionApproval": false,
+  "dynamicPlaybackObserved": false,
+  "inspected": [
+    "contact-sheet.png six ordered frames",
+    "frames/running/02.png at native size",
+    "frames/running/03.png at native size",
+    "native-size-and-timing.json",
+    "preview-registration.json"
+  ],
+  "findings": {
+    "goldenKissesWhite": {
+      "pass": true,
+      "evidence": "Frames 2 and 3 show the golden leaning inward with a closed smiling eye and its small muzzle touching the white character's upper-left cheek/temple. Contact remains legible at native size, rather than appearing as separated faces."
+    },
+    "whiteHappy": {
+      "pass": true,
+      "evidence": "The white character has happy closed eyes and an open smiling tongue mouth during the kiss and remains willingly upright beside the golden."
+    },
+    "bodyAndFaceIdentity": {
+      "pass": true,
+      "evidence": "Both retain rounded seated upright bodies, short rounded limbs, canonical small facial marks and natural ears. No quadruped posture or obvious extra face feature is visible. The gold collar remains red."
+    },
+    "sizeConsistency": {
+      "pass": true,
+      "evidence": "Characters remain visually consistent in scale across the six frames. The registration report gives the first effect-free body bbox height 112px and ground 195, matching the actual idle reference; the body width is 176px versus idle 178px, avoiding the narrower shrunken v17 appearance."
+    },
+    "risingHearts": {
+      "pass": true,
+      "evidence": "The six-frame order shows black-outlined pink/red hearts appearing near the contact point, then successively higher with two and three hearts before reset. The highest heart is in frame 4; the art communicates upward floating hearts rather than falling hearts."
+    },
+    "nativeLegibilityAndClipping": {
+      "pass": true,
+      "evidence": "At native-size frames 2 and 3, eyes, smile, kiss contact and heart outline remain readable. Contact sheet shows complete ears, tails, bodies and heart tips without visible clipping."
+    }
+  },
+  "limitations": [
+    "Only ordered final stills were inspected; no live GIF playback was observed, so perceived cadence and loop smoothness remain for user approval.",
+    "The kiss is a small cheek/temple contact using the existing simple muzzle marks; it is intentionally subtle, not an exaggerated puckered lip drawing.",
+    "Heart count and vertical positions reset toward the loop end; upward intent is evident in the ordered sequence, but no continuous physical trajectory is claimed."
+  ],
+  "summary": "The requested processing-state kiss and rising-heart action is clearly readable with happy white expression and idle-consistent character scale. Suitable to present the six-frame GIF candidate for user approval before integration.",
+  "user_approval": "可以",
+  "approved_for_integration": true
+}

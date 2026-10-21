@@ -1,0 +1,150 @@
+{
+  "archive": "D:\\个人项目\\CodeXPets\\build\\obsolete-animation-candidates-20261021.zip",
+  "archive_sha256": "a3fec2361990ae7c4cd07d24ee4af539c53e5cc07581b9a96819e0e6289dba5c",
+  "all_files_sha256_verified": true,
+  "recoverable": true,
+  "files": 967,
+  "bytes": 147428045,
+  "kept_current_candidates": [
+    "eye-size-v2",
+    "hover-tu-v12",
+    "idle-bubble-v4",
+    "idle-reference-v3",
+    "idle-style-unified-v19",
+    "nuzzle-hearts-v3",
+    "processing-kiss-v18",
+    "walk-gait-v16"
+  ],
+  "obsolete_candidates": [
+    {
+      "path": "approval/anthro-v1",
+      "files_verified": 77
+    },
+    {
+      "path": "approval/anthro-v2",
+      "files_verified": 72
+    },
+    {
+      "path": "approval/cheek-v2",
+      "files_verified": 12
+    },
+    {
+      "path": "drafts",
+      "files_verified": 15
+    },
+    {
+      "path": "approval/face-lines-audit",
+      "files_verified": 7
+    },
+    {
+      "path": "approval/face-lines-fix-v1",
+      "files_verified": 31
+    },
+    {
+      "path": "approval/hover-celebrate-v5",
+      "files_verified": 31
+    },
+    {
+      "path": "approval/hover-celebrate-v6",
+      "files_verified": 29
+    },
+    {
+      "path": "approval/hover-dazi-v10",
+      "files_verified": 28
+    },
+    {
+      "path": "approval/hover-feet-v8",
+      "files_verified": 25
+    },
+    {
+      "path": "approval/hover-outline-v7",
+      "files_verified": 26
+    },
+    {
+      "path": "approval/hover-paws-v4",
+      "files_verified": 4
+    },
+    {
+      "path": "approval/hover-round-v11",
+      "files_verified": 27
+    },
+    {
+      "path": "approval/hover-stretch-v9",
+      "files_verified": 25
+    },
+    {
+      "path": "approval/idle-selected",
+      "files_verified": 9
+    },
+    {
+      "path": "approval/running-size-v17",
+      "files_verified": 14
+    },
+    {
+      "path": "approval/style-v3",
+      "files_verified": 68
+    },
+    {
+      "path": "approval/walk-chibi-v7",
+      "files_verified": 55
+    },
+    {
+      "path": "approval/walk-chibi-v8",
+      "files_verified": 56
+    },
+    {
+      "path": "approval/walk-chibi-v9",
+      "files_verified": 33
+    },
+    {
+      "path": "approval/walk-left-mirror-v5",
+      "files_verified": 18
+    },
+    {
+      "path": "approval/walk-left-v4",
+      "files_verified": 3
+    },
+    {
+      "path": "approval/walk-rounded-v14",
+      "files_verified": 39
+    },
+    {
+      "path": "approval/walk-shopping-v6",
+      "files_verified": 53
+    },
+    {
+      "path": "approval/walk-side-anchors-v11",
+      "files_verified": 9
+    },
+    {
+      "path": "approval/walk-side-keyframes-v13",
+      "files_verified": 4
+    },
+    {
+      "path": "approval/walk-side-v10",
+      "files_verified": 54
+    },
+    {
+      "path": "approval/walk-side-v11",
+      "files_verified": 4
+    },
+    {
+      "path": "approval/walk-side-v12",
+      "files_verified": 62
+    },
+    {
+      "path": "approval/walk-side-v13",
+      "files_verified": 38
+    },
+    {
+      "path": "approval/walk-slim-v15",
+      "files_verified": 39
+    }
+  ],
+  "reason": "Superseded candidate directories and failed drafts only. Active atlas, source frames, decoded strips, selected candidates, releases and build backups are excluded.",
+  "cleanup_completed": true,
+  "user_reference_copies": [
+    "assets/maltese-retriever/references/user-round-action.jpg",
+    "assets/maltese-retriever/references/user-walking.jpg"
+  ]
+}
