@@ -480,12 +480,12 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13540,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            13,
-            89,
-            179,
-            199
+            7,
+            83,
+            185,
+            195
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -495,12 +495,12 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13366,
+          "nontransparent_pixels": 13471,
           "bbox": [
             5,
-            44,
+            40,
             186,
-            165
+            161
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -510,12 +510,12 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13523,
+          "nontransparent_pixels": 13645,
           "bbox": [
             5,
-            23,
+            19,
             187,
-            155
+            151
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -525,12 +525,12 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13277,
+          "nontransparent_pixels": 13373,
           "bbox": [
             5,
-            9,
+            5,
             187,
-            164
+            160
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -540,12 +540,12 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13473,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            14,
-            89,
-            178,
-            199
+            7,
+            83,
+            185,
+            195
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0

@@ -1,0 +1,99 @@
+{
+  "status": "approved_pending_integration",
+  "baseline_atlas_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "source_candidate": "jumping-body-lines-v24",
+  "part": "ear",
+  "method": "Normalize only requested white-character ink regions around existing stroke centerlines and alpha contour; preserve alpha and all other pixels",
+  "frames": [
+    {
+      "frame": 0,
+      "changed_pixels": 484,
+      "target_stroke_width": 3.2,
+      "region": [
+        106,
+        76,
+        142,
+        118
+      ],
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_requested_ink_region": true
+    },
+    {
+      "frame": 1,
+      "changed_pixels": 453,
+      "target_stroke_width": 3.2,
+      "region": [
+        112,
+        49,
+        146,
+        94
+      ],
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_requested_ink_region": true
+    },
+    {
+      "frame": 2,
+      "changed_pixels": 435,
+      "target_stroke_width": 3.2,
+      "region": [
+        113,
+        38,
+        147,
+        85
+      ],
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_requested_ink_region": true
+    },
+    {
+      "frame": 3,
+      "changed_pixels": 445,
+      "target_stroke_width": 3.2,
+      "region": [
+        112,
+        49,
+        146,
+        94
+      ],
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_requested_ink_region": true
+    },
+    {
+      "frame": 4,
+      "changed_pixels": 467,
+      "target_stroke_width": 3.2,
+      "region": [
+        106,
+        76,
+        142,
+        118
+      ],
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_requested_ink_region": true
+    }
+  ],
+  "timing_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "integrated": false,
+  "packaged": false,
+  "installed": false,
+  "cloud_updated": false,
+  "qa": {
+    "native_timing_verified": true,
+    "all_alpha_pixel_identical": true,
+    "contact_sheet_visually_reviewed": true,
+    "active_atlas_unchanged": true,
+    "dynamic_playback_observed": false
+  },
+  "approval_text": "可以了请更新",
+  "approved_gif_sha256": "50314fe2b5d400634dc37e1ef124cc3566c384d0c1fbc94c235b5c3bdf5f5bd1"
+}

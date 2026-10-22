@@ -1,0 +1,57 @@
+{
+  "status": "approved_installed_cloud_synced",
+  "baseline_atlas_sha256": "daf77251a56eb8aba0fca5265464a0e7648a22f151948592f53a8153e06e46e2",
+  "source_candidate": "jumping-ear-lines-v25",
+  "first_and_last_frames_exact_idle_pixels": true,
+  "airborne_frames_pixel_identical_after_translation": true,
+  "airborne_translation_y": -4,
+  "scaling": 1,
+  "frame_count": 5,
+  "native_timing_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "transition_timing_ms": [
+    280,
+    110,
+    110,
+    140,
+    140,
+    320,
+    140,
+    140,
+    140,
+    140,
+    280,
+    280,
+    110,
+    110,
+    140,
+    140,
+    320
+  ],
+  "body_ground": 195,
+  "before_ground": 199,
+  "notes": [
+    "Grounded endpoints return to the actual canonical idle pose; airborne upright ear, facial spacing and stroke corrections retained.",
+    "Five native frames remain idle endpoint, rising, apex, descending, idle endpoint. No added native frame or altered playback speed."
+  ],
+  "integrated": true,
+  "packaged": true,
+  "installed": true,
+  "cloud_updated": true,
+  "active_atlas_unchanged": false,
+  "qa": {
+    "native_timing_verified": true,
+    "transition_total_duration_verified": true,
+    "contact_sheet_visually_reviewed": true,
+    "active_atlas_unchanged": true,
+    "dynamic_playback_observed": false
+  },
+  "approval_text": "可以了。检查下其他状态跟待机状态的动画衔接是否流畅",
+  "approved_gif_sha256": "15eb9ccc9332d03e234ba415f47bf3a84f5d821c7f7ebd937d2fcb2b816a0752",
+  "integrated_atlas_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788"
+}

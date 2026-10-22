@@ -16,6 +16,8 @@
 
 等待输入采用已审批的胸前轻合手与期待侧头，检查结果采用双手自然放低、侧头观察和开心点头。对应审批稿为 `approval/anthro-wait-review-v20/waiting.gif` 与 `approval/review-relaxed-v21/review.gif`。统一造型与后续修改约定见 `线条小狗-design.md`。
 
+跳跃已修正细鼻线、眼嘴间距、小白立耳及身体和耳根描边；首尾直接回到实际待机姿态，落脚位置一致。完整衔接审批稿为 `approval/hover-transition-v26/idle-hover-idle.gif`。其他状态与待机的衔接检查记录位于 `approval/state-transition-audit-v27/`。
+
 用户已确认 `approval/idle-bubble-v4/idle-approval-v4.gif` 的角色、尾巴和向上气泡爱心效果。聊天演示为 28 帧；Codex 原生待机格式固定为 6 帧，因此已保留选定造型和效果方向，适配为 6 个关键帧。**安装器展示实际原生播放预览**，节奏与演示 GIF 有差异。
 
 最终图集是 1536×2288 的透明 WebP，包含 9 种动画状态与 16 个视线方向，`spriteVersionNumber: 2`。结构、透明边缘、独立方向盲审及最终视觉检查通过；部分中间视线角度存在已复核的细微方向提示警告。

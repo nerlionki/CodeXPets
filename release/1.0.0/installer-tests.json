@@ -14,7 +14,7 @@
     "Successful installs leave no staging residue",
     "Failed install leaves no staging residue"
   ],
-  "testRoot": "D:\\个人项目\\CodeXPets\\build\\installer-test-133f500aac9b4c8bb575788cc31fca60",
+  "testRoot": "D:\\个人项目\\CodeXPets\\build\\installer-test-54e5793cee064e3c8adf4fd896156b69",
   "testedOS": "Microsoft Windows NT 10.0.19045.0",
   "testedArchitecture": "x64",
   "target": "Windows 10 and Windows 11; additional OS versions not machine-tested",

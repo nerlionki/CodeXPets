@@ -1,6 +1,8 @@
 {
   "ok": true,
   "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\final\\spritesheet-extended.webp",
+  "encoded_bytes": 1130624,
+  "sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -70,8 +72,8 @@
       "state": "idle",
       "row": 0,
       "column": 6,
-      "used": true,
-      "nontransparent_pixels": 14575,
+      "used": false,
+      "nontransparent_pixels": 0,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -305,7 +307,7 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13540,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -314,7 +316,7 @@
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13366,
+      "nontransparent_pixels": 13471,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -323,7 +325,7 @@
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13523,
+      "nontransparent_pixels": 13645,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -332,7 +334,7 @@
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13277,
+      "nontransparent_pixels": 13373,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -341,7 +343,7 @@
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13473,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },

@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "state": "jumping",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-nose-v22\\frames\\jumping\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-nose-v22\\frames\\jumping\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-nose-v22\\frames\\jumping\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-nose-v22\\frames\\jumping\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-nose-v22\\frames\\jumping\\04.png"
+      ]
+    }
+  ]
+}

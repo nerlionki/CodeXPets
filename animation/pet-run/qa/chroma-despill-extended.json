@@ -2,10 +2,9 @@
   "ok": true,
   "algorithm": "assemble-already-cleaned-cells-without-reprocessing",
   "source_reports": [
-    "D:\\个人项目\\CodeXPets\\approval\\anthro-wait-review-v20\\despill.json",
-    "D:\\个人项目\\CodeXPets\\approval\\review-relaxed-v21\\despill.json"
+    "D:\\个人项目\\CodeXPets\\approval\\hover-transition-v26\\despill.json"
   ],
-  "preserved_report": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261021T082549Z\\qa\\chroma-despill-extended.json",
-  "sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "preserved_report": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261022T011801Z\\qa\\chroma-despill-extended.json",
+  "sprite_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
   "alpha_preserved": true
 }

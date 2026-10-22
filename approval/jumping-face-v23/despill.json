@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-face-v23\\approval-atlas-raw.png",
+  "output": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\jumping-face-v23\\approval-atlas.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 9414,
+  "decontaminated_pixels": 9287,
+  "spill_suppressed_pixels": 9414,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 2089,
+    "r0c1": 2066,
+    "r0c2": 1996,
+    "r0c4": 1654,
+    "r0c0": 1609
+  },
+  "alpha_preserved": true
+}

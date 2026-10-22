@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "alpha_preserved": true,
+  "method": "reuse approved transparent pixels without secondary chroma cleanup",
+  "source_candidate": "jumping-face-v23; jumping-body-lines-v24; jumping-ear-lines-v25"
+}

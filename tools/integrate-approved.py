@@ -11,8 +11,7 @@ from pet_pipeline_import import RUN, call
 
 ROOT = RUN.parents[1]
 ROWS = {
-    'waiting': (6, 6, 'anthro-wait-review-v20'),
-    'review': (8, 6, 'review-relaxed-v21'),
+    'jumping': (4, 5, 'hover-transition-v26'),
 }
 STATES = ['idle', 'running-right', 'running-left', 'waving', 'jumping', 'failed', 'waiting', 'running', 'review']
 COUNTS = [6, 8, 8, 4, 5, 8, 6, 6, 6]
@@ -111,9 +110,22 @@ def main():
             shutil.copy2(src, RUN / 'decoded' / f'{state}.png')
         sync_row_source(state, candidate)
     changed = {info[0] for info in ROWS.values()}
+    # Current validator requires empty unused cells and zero RGB below alpha=0.
+    # These storage-only repairs do not alter any displayed animation frame.
+    cleared_unused = []
+    for row, count in enumerate(COUNTS):
+        box = (count*192, row*208, 1536, (row+1)*208)
+        if count < 8 and atlas.crop(box).getbbox():
+            cleared_unused.append(row)
+        if count < 8:
+            atlas.paste((0, 0, 0, 0), box)
+    atlas.putdata([(r,g,b,a) if a else (0,0,0,0) for r,g,b,a in atlas.getdata()])
     for row in set(range(11)) - changed:
-        box = (0, row*208, 1536, (row+1)*208)
-        assert atlas.crop(box).tobytes() == old.crop(box).tobytes(), f'Unapproved row changed: {row}'
+        count = COUNTS[row] if row < 9 else 8
+        box = (0, row*208, count*192, (row+1)*208)
+        before = old.crop(box)
+        before.putdata([(r,g,b,a) if a else (0,0,0,0) for r,g,b,a in before.getdata()])
+        assert atlas.crop(box).tobytes() == before.tobytes(), f'Unapproved used frame changed: {row}'
     atlas.save(RUN / 'final/spritesheet-extended.png')
     atlas.save(atlas_path, lossless=True, exact=True)
     assert Image.open(atlas_path).convert('RGBA').tobytes() == atlas.tobytes()
@@ -137,6 +149,7 @@ def main():
               'sprite_sha256': sha(atlas_path), 'replaced_rows': provenance,
               'unchanged_rows_pixel_identical': sorted(set(range(11)) - changed),
               'approved_pixel_identity_preserved_with_recorded_translation': True,
+              'storage_cleanup': {'cleared_unused_cell_rows': cleared_unused, 'zero_transparent_rgb': True, 'used_visible_pixels_unchanged': True},
               'installed': False, 'published': False}
     write(RUN / 'qa/approved-integration.json', report)
     # Each row has already passed edge cleanup. Do not clean the atlas a second time.

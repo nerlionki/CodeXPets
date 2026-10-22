@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "reviewer": "primary agent pixel-region checks and explicit user GIF approval",
+  "approval_text": "可以了请更新",
+  "approved_state": "jumping",
+  "gif_sha256": "50314fe2b5d400634dc37e1ef124cc3566c384d0c1fbc94c235b5c3bdf5f5bd1",
+  "frame_sha256": [
+    "fdf1c00d51d8ad1ca7258712192d1d32c8adf90aa506a99e47b8e72b61e87b08",
+    "92fccfe604a1590d33bffb267ac95a39644ea07de96b9162e5fbe6e43db0c443",
+    "6d96ad25e1a670cd7c69c27b90feb3c6faec20906c73d7e68fa969e1ca4a9246",
+    "a4b2209444d35e7d98f25cfed109ca3559eb48c08ea170a6a2dccf139e3170df",
+    "763c481676b15390a8a82ed4f7782576e134848ce0f5ee5f0713469a711a7f2e"
+  ],
+  "source_method": "assembled approved native frames; v22 nose, v23 upright ear and shifted eyes, v24 body ink, v25 ear-root ink"
+}

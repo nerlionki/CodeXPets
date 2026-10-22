@@ -1,0 +1,121 @@
+{
+  "status": "awaiting_user_approval",
+  "source_atlas_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "state": "jumping",
+  "method": "Restore original approved pre-thickening nasal ink, remap to current idle colors in ten bounded regions only",
+  "scale": 1,
+  "geometry_alpha_and_all_other_pixels_unchanged": true,
+  "details": [
+    {
+      "frame": 0,
+      "nose_regions": [
+        [
+          68,
+          113,
+          79,
+          124
+        ],
+        [
+          125,
+          124,
+          137,
+          134
+        ]
+      ],
+      "changed_pixels": 209,
+      "black_core_before": 136,
+      "black_core_after": 86
+    },
+    {
+      "frame": 1,
+      "nose_regions": [
+        [
+          62,
+          87,
+          74,
+          97
+        ],
+        [
+          132,
+          101,
+          144,
+          111
+        ]
+      ],
+      "changed_pixels": 195,
+      "black_core_before": 138,
+      "black_core_after": 91
+    },
+    {
+      "frame": 2,
+      "nose_regions": [
+        [
+          56,
+          73,
+          68,
+          84
+        ],
+        [
+          133,
+          91,
+          145,
+          101
+        ]
+      ],
+      "changed_pixels": 188,
+      "black_core_before": 114,
+      "black_core_after": 91
+    },
+    {
+      "frame": 3,
+      "nose_regions": [
+        [
+          61,
+          87,
+          73,
+          97
+        ],
+        [
+          132,
+          101,
+          144,
+          111
+        ]
+      ],
+      "changed_pixels": 203,
+      "black_core_before": 141,
+      "black_core_after": 95
+    },
+    {
+      "frame": 4,
+      "nose_regions": [
+        [
+          68,
+          114,
+          79,
+          125
+        ],
+        [
+          125,
+          124,
+          137,
+          134
+        ]
+      ],
+      "changed_pixels": 206,
+      "black_core_before": 138,
+      "black_core_after": 89
+    }
+  ],
+  "timing_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "integrated": false,
+  "packaged": false,
+  "installed": false,
+  "cloud_updated": false
+}

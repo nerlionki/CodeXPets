@@ -2,6 +2,7 @@
 import argparse
 import datetime
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -9,7 +10,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RUN = ROOT / 'animation/pet-run'
-SKILL = Path('C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/skills/skills/.curated/hatch-pet')
+def locate_skill():
+    codex_root = Path(os.environ.get('CODEX_HOME') or Path.home() / '.codex')
+    plugin_root = codex_root / 'plugins/cache/openai-curated-remote/work-pets'
+    candidates = [p for p in plugin_root.glob('*/skills/create-pet')
+                  if (p / 'scripts/render_animation_previews.py').is_file()
+                  and (p / 'scripts/validate_atlas.py').is_file()]
+    if candidates:
+        return max(candidates, key=lambda p: tuple(int(n) for n in p.parents[1].name.split('.')))
+    raise RuntimeError('Install the work-pets plugin to provide the official pet pipeline scripts')
+
+
+SKILL = locate_skill()
 
 def call(script, *args):
     return subprocess.run([sys.executable, str(SKILL / 'scripts' / script), *map(str, args)], check=False).returncode

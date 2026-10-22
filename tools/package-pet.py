@@ -40,6 +40,6 @@ for row, (state, duration) in enumerate(preview.ROW_DURATIONS.items()):
 looks = [atlas.crop((i*192,r*208,(i+1)*192,(r+1)*208)) for r in [9,10] for i in range(8)]
 preview.save_preview(looks, [180]*16, RUN / 'qa/previews/look-loop.gif')
 shutil.make_archive(str(package.parent / 'maltese-retriever-1.0.0'), 'zip', package.parent, package.name)
-summary = {'ok': True, 'spriteVersionNumber': 2, 'package': str(package), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(), 'installed': False, 'visual_notes': ['User-approved anthropomorphic waiting v20 and relaxed-arm review v21 integrated without scaling or redrawing', 'All other atlas rows pixel-identical to the idle-style-unified v19 baseline; original frame counts and native timing retained', 'Approval details: approval/anthro-wait-review-v20/status.json and approval/review-relaxed-v21/status.json']}
+summary = {'ok': True, 'spriteVersionNumber': 2, 'package': str(package), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(), 'installed': False, 'visual_notes': ['Latest approved state integration: animation/pet-run/qa/approved-integration.json', 'Final source-cell and unchanged-row checks: animation/pet-run/qa/final-visual-review.json', 'Original native frame counts and playback timing retained']}
 (RUN / 'qa/run-summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(summary, ensure_ascii=True, indent=2))

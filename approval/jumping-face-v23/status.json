@@ -1,0 +1,174 @@
+{
+  "status": "awaiting_user_approval",
+  "baseline_atlas_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "integrated": false,
+  "packaged": false,
+  "installed": false,
+  "cloud_updated": false,
+  "active_atlas_unchanged": true,
+  "method": "Generated upright white left ear only; existing v22 eye pixels moved up two pixels; all pixels outside ear and eye regions unchanged",
+  "records": [
+    {
+      "frame": 0,
+      "eye_shift_y": -2,
+      "eyes_per_character": 2,
+      "ear_region": [
+        106,
+        76,
+        133,
+        116
+      ],
+      "ear_registration_scale": 1.0426065162907265,
+      "changed_pixels": 811
+    },
+    {
+      "frame": 1,
+      "eye_shift_y": -2,
+      "eyes_per_character": 2,
+      "ear_region": [
+        112,
+        49,
+        138,
+        92
+      ],
+      "ear_registration_scale": 1.0143442622950818,
+      "changed_pixels": 742
+    },
+    {
+      "frame": 2,
+      "eye_shift_y": -2,
+      "eyes_per_character": 2,
+      "ear_region": [
+        113,
+        38,
+        140,
+        83
+      ],
+      "ear_registration_scale": 1.036036036036036,
+      "changed_pixels": 777
+    },
+    {
+      "frame": 3,
+      "eye_shift_y": -2,
+      "eyes_per_character": 2,
+      "ear_region": [
+        112,
+        49,
+        138,
+        92
+      ],
+      "ear_registration_scale": 1.0170068027210886,
+      "changed_pixels": 756
+    },
+    {
+      "frame": 4,
+      "eye_shift_y": -2,
+      "eyes_per_character": 2,
+      "ear_region": [
+        106,
+        76,
+        133,
+        116
+      ],
+      "ear_registration_scale": 1.0298804780876496,
+      "changed_pixels": 783
+    }
+  ],
+  "generated_source_states": [
+    {
+      "state": "jumping",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "bounds": [
+        [
+          15,
+          83,
+          176,
+          195
+        ],
+        [
+          10,
+          42,
+          185,
+          160
+        ],
+        [
+          9,
+          23,
+          186,
+          151
+        ],
+        [
+          10,
+          8,
+          187,
+          160
+        ],
+        [
+          15,
+          84,
+          176,
+          195
+        ]
+      ],
+      "style": {
+        "line_width_before": 2.1006091157319893,
+        "line_width_after": 3.442195231668916,
+        "fractional_ink_adjustment": 0.85,
+        "small_facial_features_protected": true,
+        "facial_marks_not_thickened": true
+      }
+    }
+  ],
+  "states": [
+    {
+      "state": "jumping",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "bounds": [
+        [
+          13,
+          83,
+          179,
+          199
+        ],
+        [
+          5,
+          44,
+          186,
+          165
+        ],
+        [
+          5,
+          23,
+          187,
+          155
+        ],
+        [
+          5,
+          9,
+          187,
+          164
+        ],
+        [
+          14,
+          86,
+          178,
+          199
+        ]
+      ]
+    }
+  ]
+}

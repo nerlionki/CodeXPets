@@ -247,9 +247,9 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "D:\\个人项目\\CodeXPets\\approval\\hover-tu-v12\\source\\jumping.png",
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\hover-transition-v26\\source\\jumping.png",
       "completed_at": "2026-10-20T03:11:21.709276+00:00",
-      "approved_candidate": "hover-tu-v12",
+      "approved_candidate": "hover-transition-v26",
       "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\jumping\\frames\\jumping"
     },
     {

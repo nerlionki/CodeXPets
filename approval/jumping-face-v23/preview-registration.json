@@ -1,0 +1,10 @@
+[
+  {
+    "state": "jumping",
+    "scale": 0.9739130434782609,
+    "ground": 195,
+    "preserve_vertical_motion": true,
+    "safe_margin": 4,
+    "match_reference_height": true
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "status": "awaiting_user_approval",
+  "baseline_atlas_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
+  "source_candidate": "jumping-face-v23",
+  "method": "Normalize only white body ink coverage around existing stroke centerlines; preserve alpha and all other pixels",
+  "frames": [
+    {
+      "frame": 0,
+      "changed_pixels": 1425,
+      "target_body_stroke_width": 3.5,
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_white_body_ink": true
+    },
+    {
+      "frame": 1,
+      "changed_pixels": 1216,
+      "target_body_stroke_width": 3.5,
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_white_body_ink": true
+    },
+    {
+      "frame": 2,
+      "changed_pixels": 1303,
+      "target_body_stroke_width": 3.5,
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_white_body_ink": true
+    },
+    {
+      "frame": 3,
+      "changed_pixels": 1216,
+      "target_body_stroke_width": 3.5,
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_white_body_ink": true
+    },
+    {
+      "frame": 4,
+      "changed_pixels": 1393,
+      "target_body_stroke_width": 3.5,
+      "face_pixel_identical": true,
+      "alpha_pixel_identical": true,
+      "changes_confined_to_white_body_ink": true
+    }
+  ],
+  "timing_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "integrated": false,
+  "packaged": false,
+  "installed": false,
+  "cloud_updated": false,
+  "qa": {
+    "contact_sheet_visually_reviewed": true,
+    "native_frame_count_and_timing_verified": true,
+    "active_atlas_unchanged": true,
+    "dynamic_playback_observed": false
+  }
+}
