@@ -1,47 +1,110 @@
 {
   "ok": true,
-  "approval_text": "可以了。检查下其他状态跟待机状态的动画衔接是否流畅",
-  "backup": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261022T011801Z",
-  "sprite_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
+  "approval_text": "拖拽还是不调整了，其他的可以",
+  "backup": "D:\\个人项目\\CodeXPets\\build\\before-approved-20261022T020447Z",
+  "sprite_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
   "replaced_rows": [
     {
-      "state": "jumping",
-      "row": 4,
-      "candidate": "hover-transition-v26",
+      "state": "waving",
+      "row": 3,
+      "candidate": "state-transitions-v29",
       "translation_y": 0,
       "no_scaling_or_redrawing": true,
       "frame_sha256": [
         "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1",
-        "7d23577cc391de8b32ae89e475f026121c53e2ce09a403db4590ef68903058eb",
-        "e74af887e6e5c5c4bd86e99d8ac63763032848e64b27a70a2a5589714c1bedc0",
-        "10d6500c8d066152fd42763c78053367fe6237354792257770d41030a508739d",
+        "9cd3e234303847b667d37bd5e775f2b61c23c4a510261a1e5e14a109a38cae8f",
+        "521a819129b7391be50c507a450e92ef15359478e6c1b516f250d5afc92fa6aa",
         "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1"
       ],
-      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\hover-transition-v26\\despill.json",
-      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\hover-transition-v26\\final-visual-review.json"
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\final-visual-review.json"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "candidate": "state-transitions-v29",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1",
+        "043e0ea0cdaca505b80f5a07cf3c37343401243b7442e5997a5f938b5c9f2f78",
+        "a0b950646d6fe991def1158822525cc0ef7187bbcc76ccb0d5a6d7c589c18810",
+        "abaed18477e72aaa644864795491e70d0544cd9f9d0972fbfbce63698b2e9ef2",
+        "916e2f24807afc7668e18e1c219218d46180047a6432cbe7e054405d23ff020c",
+        "871b489c0431cff506a5975752831d87e890198fca3df2ac58210d6cd84ad96b",
+        "8dffc6c017d5e5c495d101f0b470c15c4e49da5f20cf9813d3beb3baeffb61e8",
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\final-visual-review.json"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "candidate": "state-transitions-v29",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1",
+        "cc33a73a75802b8c0d7c39753ae597ea22bf959e58cfa3a374d1540575c47942",
+        "64b8cbc4c05aae614d2d611c6041affaebc55c98fa27a91cb60cd21d32dd76b9",
+        "17e6b78a15fd39bc94539930f9151eba1e1ca90d95f4c278cfc627423f573ba1",
+        "122c130260e43e14f38ece4782c88ce6bd7d4f378cf437a5cfb83131913f8943",
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\final-visual-review.json"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "candidate": "state-transitions-v29",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1",
+        "e98dc373dc55732fdf9736cd069419947f0ca17110af56ec5beb38bb9509bf74",
+        "402e5a220497b1560490bb957f34dfa6e38009e2456e6f387b5cfa47bcac3c1e",
+        "deb18249edcea5ae0c974f80b5868fa925040fe4e153dd7c0a503be06052eb5c",
+        "49e9b474fa9b6d7f573ac9909779d08a39c33442c7b7d19f8628d7153df5484d",
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\final-visual-review.json"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "candidate": "state-transitions-v29",
+      "translation_y": 0,
+      "no_scaling_or_redrawing": true,
+      "frame_sha256": [
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1",
+        "169953c141175e4728fd3693f7940cb2dbccafaacf14c5e54fbc02e11c69e429",
+        "50a0631841a8611ae65aadf42211819f0a92f38b916659a7158664be6be876b1",
+        "d212a0215293861838406db6928c6f51bd99d6476c9bc92cbdb43cbddc250e92",
+        "4658296c792d86f702fd578ec20c9aeb7ee34663fcc1770b405351825d79bb21",
+        "de9a3778332a772a3b29c035bf3be19f847e234c117773c8b78a6f54667d3ea1"
+      ],
+      "cleanup_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\despill.json",
+      "visual_report": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\final-visual-review.json"
     }
+  ],
+  "unchanged_rows_pixel_identical": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10
   ],
   "approved_pixel_identity_preserved_with_recorded_translation": true,
   "storage_cleanup": {
-    "cleared_unused_cell_rows": [
-      0
-    ],
+    "cleared_unused_cell_rows": [],
     "zero_transparent_rgb": true,
     "used_visible_pixels_unchanged": true
   },
   "installed": true,
   "published": false,
-  "unchanged_used_rows_pixel_identical": [
-    0,
-    1,
-    2,
-    3,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-  ],
   "cloud_updated": true
 }

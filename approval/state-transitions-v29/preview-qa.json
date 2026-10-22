@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "native_gif_durations_verified": [
+    {
+      "state": "waving",
+      "native_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "transition_total_ms": 3600
+    },
+    {
+      "state": "failed",
+      "native_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "transition_total_ms": 4640
+    },
+    {
+      "state": "waiting",
+      "native_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "transition_total_ms": 4220
+    },
+    {
+      "state": "running",
+      "native_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "transition_total_ms": 3840
+    },
+    {
+      "state": "review",
+      "native_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "transition_total_ms": 4260
+    }
+  ],
+  "unchanged_atlas_rows": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10
+  ],
+  "active_and_packaged_atlas_unchanged": true,
+  "seated_endpoint_pixel_identity_verified": true,
+  "all_candidate_frames_inside_cells": true,
+  "dynamic_playback_observed": false,
+  "review": "native contact sheets and pose geometry; GIF motion requires user approval"
+}

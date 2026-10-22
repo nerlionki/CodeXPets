@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "state": "waving",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waving\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waving\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waving\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waving\\03.png"
+      ]
+    },
+    {
+      "state": "failed",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\05.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\06.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\failed\\07.png"
+      ]
+    },
+    {
+      "state": "waiting",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\waiting\\05.png"
+      ]
+    },
+    {
+      "state": "running",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\running\\05.png"
+      ]
+    },
+    {
+      "state": "review",
+      "method": "stable-slots",
+      "frames": [
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\00.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\01.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\02.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\03.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\04.png",
+        "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\approval\\state-transitions-v29\\frames\\review\\05.png"
+      ]
+    }
+  ]
+}

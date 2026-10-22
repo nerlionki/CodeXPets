@@ -1,0 +1,212 @@
+{
+  "status": "approved_installed_cloud_synced",
+  "baseline_atlas_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
+  "changed_states": [
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "states": [
+    {
+      "state": "waving",
+      "frame_count": 4,
+      "duration_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "interior_translation": [
+        1,
+        0
+      ],
+      "interior_original_pixels_preserved": true,
+      "first_and_last_exact_idle": true,
+      "first_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "last_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "scaled": false,
+      "redrawn": false,
+      "native_cycle_count_in_transition_preview": 2
+    },
+    {
+      "state": "failed",
+      "frame_count": 8,
+      "duration_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "interior_translation": [
+        0,
+        2
+      ],
+      "interior_original_pixels_preserved": true,
+      "first_and_last_exact_idle": true,
+      "first_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "last_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "scaled": false,
+      "redrawn": false,
+      "native_cycle_count_in_transition_preview": 2
+    },
+    {
+      "state": "waiting",
+      "frame_count": 6,
+      "duration_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "interior_translation": [
+        0,
+        2
+      ],
+      "interior_original_pixels_preserved": true,
+      "first_and_last_exact_idle": true,
+      "first_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "last_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "scaled": false,
+      "redrawn": false,
+      "native_cycle_count_in_transition_preview": 2
+    },
+    {
+      "state": "running",
+      "frame_count": 6,
+      "duration_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "interior_translation": [
+        0,
+        2
+      ],
+      "interior_original_pixels_preserved": true,
+      "first_and_last_exact_idle": true,
+      "first_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "last_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "scaled": false,
+      "redrawn": false,
+      "native_cycle_count_in_transition_preview": 2
+    },
+    {
+      "state": "review",
+      "frame_count": 6,
+      "duration_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "interior_translation": [
+        0,
+        2
+      ],
+      "interior_original_pixels_preserved": true,
+      "first_and_last_exact_idle": true,
+      "first_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "last_body": [
+        7,
+        83,
+        185,
+        195
+      ],
+      "scaled": false,
+      "redrawn": false,
+      "native_cycle_count_in_transition_preview": 2
+    }
+  ],
+  "native_timing_preserved": true,
+  "active_atlas_unchanged": false,
+  "installed": true,
+  "packaged": true,
+  "cloud_updated": true,
+  "dynamic_playback_observed": false,
+  "seated_first_and_last_are_canonical_idle": true,
+  "preview_qa": "preview-qa.json",
+  "inherited_seated_candidates": "build/rejected-state-transitions-v28",
+  "candidate_atlas_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
+  "user_reference": "references/user-turnaround.jpg",
+  "approval_gif_sha256": {
+    "failed-transition-2x.gif": "4a31b87a7200ad51837b69ccac96d9f4910f905effc8d5d20f187c89ab3d7550",
+    "review-transition-2x.gif": "cc8536d3609239a06bd28c33ec1ace296a1fa94fe0c171f2c296924ddbeb7a4d",
+    "running-transition-2x.gif": "757d7447946cdf301686c1b03f3f73eef773e1349c9b6c1450baa3e082aaee75",
+    "waiting-transition-2x.gif": "ca38619dda2bf0f0392e585caffdbfcf4b7a95ebc95d32a7216e17af49ada3f2",
+    "waving-transition-2x.gif": "01c4d8de5d20da77a2bbf5a4b31e03e10fe2138d381b686a9775de96e8ea028f"
+  },
+  "approval_text": "拖拽还是不调整了，其他的可以",
+  "approved_states": [
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "excluded_states": [
+    "running-right",
+    "running-left"
+  ],
+  "drag_decision": "Retain existing released and installed exact-mirrored walking; fixed-order proposal withdrawn by user",
+  "walking_candidates_archived": "build/rejected-walking-v29",
+  "integrated": true,
+  "integrated_atlas_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473"
+}

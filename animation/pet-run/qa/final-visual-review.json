@@ -1,28 +1,28 @@
 {
   "ok": true,
-  "reviewer": "primary agent source-cell comparison and user GIF approval",
-  "sprite_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
+  "reviewer": "primary agent verified approved cells and full unchanged rows",
+  "approval_text": "拖拽还是不调整了，其他的可以",
+  "sprite_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
   "replaced_states": [
-    "jumping"
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review"
   ],
   "approved_cells_pixel_identical": true,
-  "unchanged_used_rows_pixel_identical": [
+  "unchanged_rows_pixel_identical": [
     0,
     1,
     2,
-    3,
-    5,
-    6,
-    7,
-    8,
+    4,
     9,
     10
   ],
-  "baseline_sprite_sha256": "bc08a1c6ec3af14c8adae5b181585709becd0c475bfe2d6bd83b49c604cbef63",
-  "unused_cells_transparent": true,
-  "storage_cleanup": "Unused idle column 6 cleared; alpha-zero RGB zeroed, visible pixels unchanged",
-  "baseline_visual_review": "build/before-approved-20261022T011413Z/qa/final-visual-review.json",
+  "walking_rows_pixel_identical_to_previous_release": true,
+  "baseline_sprite_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
   "native_gifs_match_approved_pixels_and_timing": true,
+  "unused_cells_transparent": true,
   "installed": true,
   "published": false,
   "cloud_updated": true

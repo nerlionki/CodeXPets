@@ -206,8 +206,10 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "C:\\Users\\KT-user18\\.codex\\generated_images\\01a15741-3bf1-7df0-8bcf-211b22203e4f\\exec-2d3cf023-dccc-4de1-b274-71f395d4b3bf.png",
-      "completed_at": "2026-10-20T03:04:50.766719+00:00"
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\source\\waving.png",
+      "completed_at": "2026-10-20T03:04:50.766719+00:00",
+      "approved_candidate": "state-transitions-v29",
+      "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\waving\\frames\\waving"
     },
     {
       "id": "jumping",
@@ -290,9 +292,9 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "D:\\个人项目\\CodeXPets\\approval\\nuzzle-hearts-v3\\source\\failed.png",
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\source\\failed.png",
       "completed_at": "2026-10-20T03:06:32.310769+00:00",
-      "approved_candidate": "nuzzle-hearts-v3",
+      "approved_candidate": "state-transitions-v29",
       "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\failed\\frames\\failed"
     },
     {
@@ -333,9 +335,9 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "D:\\个人项目\\CodeXPets\\approval\\anthro-wait-review-v20\\source\\waiting.png",
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\source\\waiting.png",
       "completed_at": "2026-10-20T03:06:02.267884+00:00",
-      "approved_candidate": "anthro-wait-review-v20",
+      "approved_candidate": "state-transitions-v29",
       "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\waiting\\frames\\waiting"
     },
     {
@@ -376,9 +378,9 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "D:\\个人项目\\CodeXPets\\approval\\processing-kiss-v18\\source\\running.png",
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\source\\running.png",
       "completed_at": "2026-10-20T03:07:38.404350+00:00",
-      "approved_candidate": "processing-kiss-v18",
+      "approved_candidate": "state-transitions-v29",
       "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\running\\frames\\running"
     },
     {
@@ -419,9 +421,9 @@
         "reason": "state requires its own generated animation semantics"
       },
       "mirror_policy": {},
-      "source_path": "D:\\个人项目\\CodeXPets\\approval\\review-relaxed-v21\\source\\review.png",
+      "source_path": "D:\\个人项目\\CodeXPets\\approval\\state-transitions-v29\\source\\review.png",
       "completed_at": "2026-10-20T03:09:57.032642+00:00",
-      "approved_candidate": "review-relaxed-v21",
+      "approved_candidate": "state-transitions-v29",
       "integrated_frames": "D:\\个人项目\\CodeXPets\\animation\\pet-run\\qa\\rows\\review\\frames\\review"
     },
     {

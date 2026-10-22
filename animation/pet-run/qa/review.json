@@ -17,6 +17,7 @@
     "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped",
     "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
     "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped",
     "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped",
     "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
     "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped",
@@ -397,20 +398,22 @@
       "state": "waving",
       "expected_frames": 4,
       "actual_frames": 4,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waving\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16090,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            5,
-            77,
+            7,
+            83,
             185,
             195
           ],
@@ -424,9 +427,9 @@
           "height": 208,
           "nontransparent_pixels": 17533,
           "bbox": [
-            6,
+            7,
             73,
-            186,
+            187,
             195
           ],
           "edge_pixels": 0,
@@ -439,9 +442,9 @@
           "height": 208,
           "nontransparent_pixels": 16665,
           "bbox": [
-            5,
+            6,
             76,
-            185,
+            186,
             195
           ],
           "edge_pixels": 0,
@@ -452,10 +455,10 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waving\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16198,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            5,
-            76,
+            7,
+            83,
             185,
             195
           ],
@@ -568,11 +571,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15523,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            11,
-            73,
-            182,
+            7,
+            83,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -586,9 +589,9 @@
           "nontransparent_pixels": 15292,
           "bbox": [
             13,
-            71,
+            73,
             179,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -601,9 +604,9 @@
           "nontransparent_pixels": 15524,
           "bbox": [
             14,
-            50,
+            52,
             178,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -616,9 +619,9 @@
           "nontransparent_pixels": 16083,
           "bbox": [
             14,
-            33,
+            35,
             176,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -631,9 +634,9 @@
           "nontransparent_pixels": 16134,
           "bbox": [
             13,
-            20,
+            22,
             177,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -646,9 +649,9 @@
           "nontransparent_pixels": 16064,
           "bbox": [
             14,
-            6,
+            8,
             176,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -661,9 +664,9 @@
           "nontransparent_pixels": 15588,
           "bbox": [
             13,
-            22,
+            24,
             177,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -673,11 +676,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\failed\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15135,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            14,
-            73,
-            179,
+            7,
+            83,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -701,11 +704,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14372,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            11,
+            7,
             83,
-            181,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -719,9 +722,9 @@
           "nontransparent_pixels": 14265,
           "bbox": [
             11,
-            83,
+            85,
             181,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -734,9 +737,9 @@
           "nontransparent_pixels": 13502,
           "bbox": [
             16,
-            83,
+            85,
             177,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -749,9 +752,9 @@
           "nontransparent_pixels": 13922,
           "bbox": [
             14,
-            83,
+            85,
             178,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -764,9 +767,9 @@
           "nontransparent_pixels": 14107,
           "bbox": [
             15,
-            83,
+            85,
             179,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -776,11 +779,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\waiting\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14315,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            11,
+            7,
             83,
-            181,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -804,11 +807,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14482,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            8,
+            7,
             83,
-            184,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -822,9 +825,9 @@
           "nontransparent_pixels": 14334,
           "bbox": [
             9,
-            83,
+            85,
             185,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -837,9 +840,9 @@
           "nontransparent_pixels": 14437,
           "bbox": [
             9,
-            62,
+            64,
             183,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -852,9 +855,9 @@
           "nontransparent_pixels": 15356,
           "bbox": [
             8,
-            44,
+            46,
             184,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -867,9 +870,9 @@
           "nontransparent_pixels": 16070,
           "bbox": [
             7,
-            17,
+            19,
             183,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -879,11 +882,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\running\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14882,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            8,
-            50,
-            183,
+            7,
+            83,
+            185,
             195
           ],
           "edge_pixels": 0,
@@ -907,9 +910,9 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15360,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            8,
+            7,
             83,
             185,
             195
@@ -925,9 +928,9 @@
           "nontransparent_pixels": 15199,
           "bbox": [
             8,
-            84,
+            86,
             185,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -940,9 +943,9 @@
           "nontransparent_pixels": 14751,
           "bbox": [
             8,
-            87,
+            89,
             185,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -955,9 +958,9 @@
           "nontransparent_pixels": 15665,
           "bbox": [
             7,
-            81,
+            83,
             184,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -970,9 +973,9 @@
           "nontransparent_pixels": 15218,
           "bbox": [
             8,
-            83,
+            85,
             185,
-            195
+            197
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
@@ -982,11 +985,11 @@
           "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\frames\\review\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15172,
+          "nontransparent_pixels": 14575,
           "bbox": [
-            9,
+            7,
             83,
-            184,
+            185,
             195
           ],
           "edge_pixels": 0,

@@ -11,7 +11,11 @@ from pet_pipeline_import import RUN, call
 
 ROOT = RUN.parents[1]
 ROWS = {
-    'jumping': (4, 5, 'hover-transition-v26'),
+    'waving': (3, 4, 'state-transitions-v29'),
+    'failed': (5, 8, 'state-transitions-v29'),
+    'waiting': (6, 6, 'state-transitions-v29'),
+    'running': (7, 6, 'state-transitions-v29'),
+    'review': (8, 6, 'state-transitions-v29'),
 }
 STATES = ['idle', 'running-right', 'running-left', 'waving', 'jumping', 'failed', 'waiting', 'running', 'review']
 COUNTS = [6, 8, 8, 4, 5, 8, 6, 6, 6]

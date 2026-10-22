@@ -1,12 +1,21 @@
 {
   "ok": true,
   "pet_id": "pet_6ad72713d8b88191918cea885248f2ff",
-  "candidate": "hover-transition-v26",
+  "candidate": "state-transitions-v29-approved-five-seated-only",
   "is_active": true,
   "is_custom": true,
   "active_selection_preserved": true,
   "verified_cloud_pixels_match_local": true,
-  "local_sprite_sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
-  "cloud_encoded_sha256": "6cc6181c0aac50c9b007963840d3af7aeb0538e792fca752d0da1bf13437288f",
-  "rgba_sha256": "edaff36ca53265c26d1a6d50202752ca07723f8eca0e5deeddcf3726c3d78d91"
+  "local_sprite_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
+  "cloud_encoded_sha256": "2b57c89e3e2caa419aafff0894a365493a734c4003704a1eb2eaba286922891a",
+  "rgba_sha256": "ee40c9e784638fdee839d34f82cc3dcf8bd57f41da45db23a095e0bad8c8b312",
+  "walking_rows_pixel_identical_to_before_update": true,
+  "unchanged_rows": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10
+  ]
 }

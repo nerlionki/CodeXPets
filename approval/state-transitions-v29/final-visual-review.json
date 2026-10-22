@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "user_approved": true,
+  "approval_text": "拖拽还是不调整了，其他的可以",
+  "approved_states": [
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "excluded_states": [
+    "running-right",
+    "running-left"
+  ],
+  "candidate_sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
+  "seated_endpoint_pixels_verified": true,
+  "native_timing_verified": true,
+  "unchanged_rows": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10
+  ],
+  "walking_pixels_restored_from_active_atlas": true
+}

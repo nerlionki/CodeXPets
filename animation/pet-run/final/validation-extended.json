@@ -1,8 +1,8 @@
 {
   "ok": true,
   "file": "D:\\\u4e2a\u4eba\u9879\u76ee\\CodeXPets\\animation\\pet-run\\final\\spritesheet-extended.webp",
-  "encoded_bytes": 1130624,
-  "sha256": "d18147d86b6ad0802f0b0d73f9f244511dfc8bde741c734fdf3cffc57661e788",
+  "encoded_bytes": 969240,
+  "sha256": "90fe3b767e33b771fcbcd16f67423d3b819db8d48759238c769831f31077a473",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -235,7 +235,7 @@
       "row": 3,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 16090,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -262,7 +262,7 @@
       "row": 3,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 16198,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -379,7 +379,7 @@
       "row": 5,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 15523,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -442,7 +442,7 @@
       "row": 5,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 15135,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -451,7 +451,7 @@
       "row": 6,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14372,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -496,7 +496,7 @@
       "row": 6,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 14315,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -523,7 +523,7 @@
       "row": 7,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14482,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -568,7 +568,7 @@
       "row": 7,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 14882,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -595,7 +595,7 @@
       "row": 8,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 15360,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -640,7 +640,7 @@
       "row": 8,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 15172,
+      "nontransparent_pixels": 14575,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
